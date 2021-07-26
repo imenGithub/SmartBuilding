@@ -1,0 +1,2455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_AaLFwNC5EeWg8voEG48z4w" name="SBBuildingManager">
+    <eAnnotations xmi:id="_AjjrQNC5EeWg8voEG48z4w" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_Ajk5YNC5EeWg8voEG48z4w" source="codegen">
+        <details xmi:id="_Ajk5YdC5EeWg8voEG48z4w" key="codegenDirectory" value="/SBBuildingManager/src"/>
+        <details xmi:id="_C3UdoNC5EeWg8voEG48z4w" key="AssociatedSourceCode" value="/SBBuildingManager/src/fr/laas/sb/serverBM/SmartBuildingListener.java;1992125792/1;/SBBuildingManager/src/fr/laas/sb/serverBM/SmartBuildingManager.java;2819662849/1;/SBBuildingManager/src/fr/laas/sb/serverBM/client/UserAgent.java;1699358120/1;/SBBuildingManager/src/fr/laas/sb/serverBM/client/entities/AirConditioner.java;1465953440/1;/SBBuildingManager/src/fr/laas/sb/serverBM/client/entities/Entity.java;3268154389/1;/SBBuildingManager/src/fr/laas/sb/serverBM/client/entities/Lamp.java;2740577079/1;/SBBuildingManager/src/fr/laas/sb/serverBM/client/entities/PowerSmartMeter.java;4155311260/1;/SBBuildingManager/src/fr/laas/sb/serverBM/client/entities/Thermometer.java;1943789605/1;/SBBuildingManager/src/fr/laas/sb/serverBM/clientConnection/ClientConnection.java;2168390589/1;/SBBuildingManager/src/fr/laas/sb/serverBM/facus/SmartBuildingApplicationLayer.java;201060214/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/Connection.java;707430085/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/IpAirCondValue.java;2315901461/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/LampIntenValue.java;3519337197/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/LampIntensityRequest.java;3919504982/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/LampIntensityValue.java;265431495/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/LampIpValue.java;3739458820/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/LampStateRequest.java;164869023/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/LampStateValue.java;2435555374/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/Message.java;3948406432/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/PowerConsVal.java;3071126560/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/PowerProdConsRequest.java;3159402247/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/PowerProdVal.java;2282550396/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/PrecisionAirCondValue.java;1127227514/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/PrecisionThValue.java;278071137/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/PsmIpValue.java;3428043528/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/PsmSendPeriod.java;1110803728/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/ResponseInten.java;931792001/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/ResponsePowerCons.java;2140443916/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/ResponsePowerProd.java;3125644435/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/ResponseState.java;3252806066/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/ResponseTempAirCond.java;3142959964/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/ResponseTempThermometer.java;4054770865/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/TempAirCondRequest.java;1692697442/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/TempAirCondValue.java;199793343/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/TempThermometerRequest.java;272571884/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/ThIpValue.java;1992258659/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/ThMeasurePeriodValue.java;1341986399/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/ThTempOrSendPeriod.java;3517838845/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/UserLampIntenValue.java;2219280745/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/UserLampStateValue.java;329107152/1;/SBBuildingManager/src/fr/laas/sb/serverBM/messages/UserTempAirCondValue.java;3948584427/1;/SBBuildingManager/src/test/SmartBuildingDaemon.java;10753902/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_B3_uoNC5EeWg8voEG48z4w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_B3_uodC5EeWg8voEG48z4w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_B3_uotC5EeWg8voEG48z4w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_B4AVsNC5EeWg8voEG48z4w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_B4AVsdC5EeWg8voEG48z4w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_B4AVstC5EeWg8voEG48z4w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_B4AVs9C5EeWg8voEG48z4w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_B4AVtNC5EeWg8voEG48z4w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_B4Bj0NC5EeWg8voEG48z4w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_BxLU8NC5EeWg8voEG48z4w" name="fr">
+      <packagedElement xmi:type="uml:Package" xmi:id="_BxLU8dC5EeWg8voEG48z4w" name="laas">
+        <packagedElement xmi:type="uml:Package" xmi:id="_BxL8ANC5EeWg8voEG48z4w" name="sb">
+          <packagedElement xmi:type="uml:Package" xmi:id="_BxRbkNC5EeWg8voEG48z4w" name="serverBM">
+            <packagedElement xmi:type="uml:Class" xmi:id="_B7JJQNC5EeWg8voEG48z4w" name="SmartBuildingListener">
+              <generalization xmi:id="_CQ0eUNC5EeWg8voEG48z4w" general="_CQwz8dC5EeWg8voEG48z4w"/>
+              <ownedAttribute xmi:id="_CRGyMNC5EeWg8voEG48z4w" name="clientConnection" isStatic="true" type="_B-R80NC5EeWg8voEG48z4w" isReadOnly="true" association="_CVeU0NC5EeWg8voEG48z4w"/>
+              <ownedAttribute xmi:id="_CRJ1gNC5EeWg8voEG48z4w" name="chatClientDeviceSession" isStatic="true" type="_CP21ANC5EeWg8voEG48z4w" isReadOnly="true" association="_CVfi8dC5EeWg8voEG48z4w"/>
+              <ownedAttribute xmi:id="_CRMRwNC5EeWg8voEG48z4w" name="chatClientUserSession" isStatic="true" type="_CP21ANC5EeWg8voEG48z4w" association="_CVgxEdC5EeWg8voEG48z4w"/>
+              <ownedAttribute xmi:id="_CRQjMNC5EeWg8voEG48z4w" name="connectedEntitiesString" isStatic="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CRRKQNC5EeWg8voEG48z4w" value="&quot;connectedEntitiesStr&quot;"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CTf-4NC5EeWg8voEG48z4w" name="SmartBuildingListener" specification="_B7QeANC5EeWg8voEG48z4w">
+                <ownedParameter xmi:id="_CTf-4dC5EeWg8voEG48z4w" type="_B7JJQNC5EeWg8voEG48z4w" direction="return"/>
+                <language>java</language>
+                <body>clientConnection = new ClientConnection();
+		
+		//connect the building manager to the device session
+		//setChatClientDeviceSession(clientConnection.connectClient(&quot;/home/marwa/pfe/SBBuildingManager/config/config0&quot;));
+		setChatClientDeviceSession(clientConnection.connectClient(&quot;/home/emna/Bureau/Master/Smart Building/SBBuildingManager/config/config0&quot;));
+		
+		//connect the building manager to the user session
+		//setChatClientUserSession(clientConnection.connectClient(&quot;/home/marwa/pfe/SBBuildingManager/config/config1&quot;));
+		setChatClientUserSession(clientConnection.connectClient(&quot;/home/emna/Bureau/Master/Smart Building/SBBuildingManager/config/config1&quot;));
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CTgl8NC5EeWg8voEG48z4w" name="run" specification="_B7ThUNC5EeWg8voEG48z4w">
+                <language>java</language>
+                <body>while (true)
+		{ //listening
+			
+			boolean entityDetectedValue = clientConnection.valueSentFromDeviceSessionDetection();
+			if (entityDetectedValue  == true)//if the BM gets a new message from an entity
+			{
+				//System.out.println(&quot;There is a new value received !!!!&quot;);
+				String msg=clientConnection.receiveNewMessage(getChatClientDeviceSession()); 
+			
+			}
+			
+			
+		}
+			                                          
+
+
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CThNANC5EeWg8voEG48z4w" name="setClientConnection" specification="_CP7GcNC5EeWg8voEG48z4w">
+                <ownedParameter xmi:id="_CThNAdC5EeWg8voEG48z4w" name="clientConnection" type="_B-R80NC5EeWg8voEG48z4w"/>
+                <language>java</language>
+                <body>this.clientConnection = clientConnection;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CTh0ENC5EeWg8voEG48z4w" name="setChatClientDeviceSession" specification="_CQz3QNC5EeWg8voEG48z4w">
+                <ownedParameter xmi:id="_CTh0EdC5EeWg8voEG48z4w" name="chatClientDeviceSession" type="_CP21ANC5EeWg8voEG48z4w"/>
+                <language>java</language>
+                <body>this.chatClientDeviceSession = chatClientDeviceSession;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_B7QeANC5EeWg8voEG48z4w" name="SmartBuildingListener" method="_CTf-4NC5EeWg8voEG48z4w">
+                <eAnnotations xmi:id="_B7STMNC5EeWg8voEG48z4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_B7STMdC5EeWg8voEG48z4w" key="create"/>
+                </eAnnotations>
+                <ownedComment xmi:id="_CU00kNC5EeWg8voEG48z4w">
+                  <body>Constructor of the class, defining the thread as Daemon
+	 * and connecting the Building Manager to the CM</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_B7S6QNC5EeWg8voEG48z4w" type="_B7JJQNC5EeWg8voEG48z4w" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_B7ThUNC5EeWg8voEG48z4w" name="run" method="_CTgl8NC5EeWg8voEG48z4w">
+                <ownedComment xmi:id="_CU00kdC5EeWg8voEG48z4w">
+                  <body>A method listening to the new values sent by the entities and the UA
+	 *</body>
+                </ownedComment>
+              </ownedOperation>
+              <ownedOperation xmi:id="_CP7GcNC5EeWg8voEG48z4w" name="setClientConnection" method="_CThNANC5EeWg8voEG48z4w">
+                <ownedParameter xmi:id="_CP7GcdC5EeWg8voEG48z4w" name="clientConnection" type="_B-R80NC5EeWg8voEG48z4w"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_CQz3QNC5EeWg8voEG48z4w" name="setChatClientDeviceSession" method="_CTh0ENC5EeWg8voEG48z4w">
+                <ownedParameter xmi:id="_CQz3QdC5EeWg8voEG48z4w" name="chatClientDeviceSession" type="_CP21ANC5EeWg8voEG48z4w"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_BxRbkdC5EeWg8voEG48z4w" name="clientConnection">
+              <packagedElement xmi:type="uml:Class" xmi:id="_B-R80NC5EeWg8voEG48z4w" name="ClientConnection">
+                <ownedAttribute xmi:id="_CSkKwNC5EeWg8voEG48z4w" name="entities" visibility="private" type="_CQVWINC5EeWg8voEG48z4w" association="_CVjNUdC5EeWg8voEG48z4w"/>
+                <ownedAttribute xmi:id="_CSmnANC5EeWg8voEG48z4w" name="messages" visibility="private" type="_CQVWINC5EeWg8voEG48z4w" association="_CVlCgdC5EeWg8voEG48z4w"/>
+                <ownedAttribute xmi:id="_CSpDQdC5EeWg8voEG48z4w" name="newPositionVectForDeviceSession" visibility="private">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_CSpqUNC5EeWg8voEG48z4w" value="0"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_CSq4cNC5EeWg8voEG48z4w" name="detectedValueDeviceSession" visibility="private">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_CSrfgNC5EeWg8voEG48z4w" value="false"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CTzg4NC5EeWg8voEG48z4w" name="findEntityByName" specification="_B-YDcNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CTzg4dC5EeWg8voEG48z4w" name="name">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CTzg4tC5EeWg8voEG48z4w" type="_B9JUYNC5EeWg8voEG48z4w" direction="return"/>
+                  <language>java</language>
+                  <body>for(int i=0;i&lt;entities.size();i++)
+		if(entities.get(i).getName().equalsIgnoreCase(name))
+			return entities.get(i);
+					return null;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CT0vANC5EeWg8voEG48z4w" name="getUserAgentPreferences" specification="_B-afsNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CT0vAdC5EeWg8voEG48z4w" type="_B8wS0NC5EeWg8voEG48z4w" direction="return"/>
+                  <language>java</language>
+                  <body>return (UserAgent)findEntityByName(&quot;UserAgent&quot;);
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CT1WENC5EeWg8voEG48z4w" name="getLamp" specification="_B-bt0NC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CT1WEdC5EeWg8voEG48z4w" type="_B9TscNC5EeWg8voEG48z4w" direction="return"/>
+                  <language>java</language>
+                  <body>return (Lamp)findEntityByName(&quot;Lamp&quot;);
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CT1WEtC5EeWg8voEG48z4w" name="getAirConditioner" specification="_B-djANC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CT1WE9C5EeWg8voEG48z4w" type="_B87R8NC5EeWg8voEG48z4w" direction="return"/>
+                  <language>java</language>
+                  <body>return (AirConditioner)findEntityByName(&quot;AirConditioner&quot;);
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CT19INC5EeWg8voEG48z4w" name="getThermometer" specification="_B-exINC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CT19IdC5EeWg8voEG48z4w" type="_B92fANC5EeWg8voEG48z4w" direction="return"/>
+                  <language>java</language>
+                  <body>return (Thermometer)findEntityByName(&quot;Thermometer&quot;);
+
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CT2kMNC5EeWg8voEG48z4w" name="getPowerSmartMeter" specification="_B-hNYNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CT2kMdC5EeWg8voEG48z4w" type="_B9iV8NC5EeWg8voEG48z4w" direction="return"/>
+                  <language>java</language>
+                  <body>return (PowerSmartMeter)findEntityByName(&quot;PowersmartMeter&quot;);
+
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CT2kMtC5EeWg8voEG48z4w" name="ClientConnection" specification="_B-kQsNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CT2kM9C5EeWg8voEG48z4w" type="_B-R80NC5EeWg8voEG48z4w" direction="return"/>
+                  <language>java</language>
+                  <body>entities=new Vector&lt;Entity>();
+		entities.addElement(new Lamp(&quot;Lamp&quot;,&quot;&quot;, 0));
+		entities.addElement(new PowerSmartMeter(&quot;PowerSmartMeter&quot;,0,0, 29000,30000));
+		entities.addElement(new Thermometer(&quot;Thermometer&quot;,0,29000,30000));
+		entities.addElement(new AirConditioner(&quot;AirConditioner&quot;,0,0));
+		entities.addElement(new UserAgent(&quot;UserAgent&quot;));
+		
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CT3LQNC5EeWg8voEG48z4w" name="connectClient" specification="_B-mF4NC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CT3LQdC5EeWg8voEG48z4w" name="configFile">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CT3LQtC5EeWg8voEG48z4w" type="_CP21ANC5EeWg8voEG48z4w" direction="return"/>
+                  <language>java</language>
+                  <body>ChatClient  chatClient = new ChatClient();
+		chatClient.setConfigFile(configFile);
+		
+		//connecting the building manager to the CM of the Device session
+		chatClient.connect();
+		
+		//verify file reading 
+		System.out.println(&quot;&quot;);
+		System.out.println(&quot;**************** Building Manager ******************&quot;);
+		System.out.println(&quot;**************** config file infos ******************&quot;);
+		System.out.println(&quot;User : &quot; + chatClient.getUser());
+		System.out.println(&quot;Server : &quot; + chatClient.getServer());
+		System.out.println(&quot;Port : &quot; + chatClient.getPort());
+		System.out.println(&quot;Session : &quot; + chatClient.getSession());
+		System.out.println(&quot;*******************************************************&quot;);
+		System.out.println(&quot;&quot;);
+		
+		return chatClient;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CT3yUNC5EeWg8voEG48z4w" name="sendToEntity" specification="_CQ_dcNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CT3yUdC5EeWg8voEG48z4w" name="msg">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CT3yUtC5EeWg8voEG48z4w" name="chatClient" type="_CP21ANC5EeWg8voEG48z4w"/>
+                  <ownedParameter xmi:id="_CT3yU9C5EeWg8voEG48z4w" name="componentName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>Vector&lt;String> receiverUserVector = new Vector&lt;String>();
+	receiverUserVector.addElement(componentName);
+	chatClient.send(msg, receiverUserVector); </body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CT3yVNC5EeWg8voEG48z4w" name="divVal" specification="_B-rlcNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CT3yVdC5EeWg8voEG48z4w" name="s">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CT3yVtC5EeWg8voEG48z4w" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>Boolean e=false;    
+	String s2=&quot;&quot;;
+	int i=0;
+		while(e==false &amp;&amp; i&lt;s.length())
+		{
+			try
+		{
+		    double num = Double.parseDouble(s.substring(i, i+1));
+		    s2=s.substring(i, s.length());
+		e=true;    
+		}
+			catch(NumberFormatException nfe1){
+						i++;
+
+			}
+		
+		
+			}
+		
+		return s2;
+	
+
+		</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CT4ZYNC5EeWg8voEG48z4w" name="receiveNewMessage" specification="_CRAEgNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CT4ZYdC5EeWg8voEG48z4w" name="chatClient" type="_CP21ANC5EeWg8voEG48z4w"/>
+                  <ownedParameter xmi:id="_CT4ZYtC5EeWg8voEG48z4w" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>String  msg = &quot;&quot;;
+		messages = chatClient.getMessages(); //The chatClient API (getMessages method) :
+											//will display the msgs [user : msg] in the console
+		
+		int newPositionVect = 0;
+		
+			newPositionVect = this.newPositionVectForDeviceSession;
+			//System.out.println(&quot;&quot;);
+			//System.out.println(&quot;*** Building manager : RECEIVE Method  ***&quot;);//(Device session )
+		
+		
+		//System.out.print(&quot;New message received by the BM : &quot;);
+		
+			
+			
+		for (int i=newPositionVect; i &lt; messages.size(); i++)
+		{   
+			//display the message received
+			//System.out.println(&quot;Imen Display => msg &quot; + i + &quot; => &quot; + messages.elementAt(i));
+			
+		    //*****************************************************************************************
+		    //********* divide the message received to extract the user &amp; its message ******************
+		    //*****************************************************************************************
+			String element = &quot;&quot;; //the received message is composed of 3 elements : 
+			//					&quot;element1(client) element2(:) element3(msg)&quot; ==> [client : msg]
+			int elementPos = 0;
+
+			StringTokenizer st = new StringTokenizer (messages.elementAt(i),&quot; &quot;);
+		      while (st.hasMoreTokens())
+		      { 		    	    	
+
+			    	  element = st.nextToken();
+			    	  elementPos++;
+			    	  //System.out.println(&quot;element : -&quot; + element + &quot;-&quot;);
+			    	  
+			    	 
+		    		  if(elementPos==3)
+		    		  {
+		    			  msg = element;
+		    			 // System.out.println(&quot;	=>Message : &quot; + msg);
+		    			  //System.out.println(&quot;---------------------------------------&quot;);
+			    	  }
+		    		 
+
+		      }
+		      String msge=&quot;&quot;;
+		  		 String val=&quot;&quot;;
+		  		if(divVal(messages.elementAt(i))!=&quot;&quot;)
+		  			 {msge=messages.elementAt(i).replace(divVal(messages.elementAt(i)), &quot;&quot;);
+		  			 val=divVal(messages.elementAt(i));
+		  			 }
+		  		else
+		  			msge=messages.elementAt(i);
+		  			 //pour element=>Lamp : ip172.55 val=>172.55 et msge=>Lamp : ip
+		  		//System.out.println(&quot;msge=> &quot;+msge+&quot; val=> &quot;+val+&quot; msgeEnv=> &quot;+msg+&quot; from client connection&quot;);
+
+		  	
+		  		SmartBuildingManager.manageMessages(msge, val, msg);
+		  		
+		      
+		      
+		    
+		      
+			
+		}
+		
+			this.newPositionVectForDeviceSession = messages.size();
+			return msg;
+		</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CT4ZY9C5EeWg8voEG48z4w" name="valueSentFromDeviceSessionDetection" specification="_B-uowNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CT4ZZNC5EeWg8voEG48z4w" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>//System.out.println(&quot;size device msgs : &quot; + SmartBuildingListener.chatClientDeviceSession.getMessages().size());
+		if(this.newPositionVectForDeviceSession&lt; SmartBuildingListener.getChatClientDeviceSession().getMessages().size())
+		{
+			detectedValueDeviceSession = true;
+			//System.out.println(&quot;size device msgs : &quot; + SmartBuildingListener.getChatClientDeviceSession().getMessages().size());
+			//for(int i=0; i&lt;SmartBuildingListener.getChatClientDeviceSession().getMessages().size(); i++)
+				//System.out.println(&quot;elem vect &quot; + i + &quot; ==> &quot; + SmartBuildingListener.getChatClientDeviceSession().getMessages().elementAt(i));
+		}
+		else
+			detectedValueDeviceSession = false;
+		
+		return detectedValueDeviceSession;
+			
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CT5AcNC5EeWg8voEG48z4w" name="setUserAgentPreferences" specification="_CQZnkNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CT5AcdC5EeWg8voEG48z4w" name="userPreferences" type="_B8wS0NC5EeWg8voEG48z4w"/>
+                  <language>java</language>
+                  <body>entities.removeElement(findEntityByName(&quot;UserAgent&quot;)) ;
+		entities.addElement(userPreferences);
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_B-YDcNC5EeWg8voEG48z4w" name="findEntityByName" method="_CTzg4NC5EeWg8voEG48z4w">
+                  <ownedComment xmi:id="_CU8JUdC5EeWg8voEG48z4w">
+                    <body>Return the entity having a specific name 
+	 * @author emna
+	 * @param name the name of the entity
+	 * @return the entity having the corresponding name</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_B-YDcdC5EeWg8voEG48z4w" name="name">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CQXyYNC5EeWg8voEG48z4w" type="_B9JUYNC5EeWg8voEG48z4w" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_B-afsNC5EeWg8voEG48z4w" name="getUserAgentPreferences" method="_CT0vANC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CQXyYdC5EeWg8voEG48z4w" type="_B8wS0NC5EeWg8voEG48z4w" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_B-bt0NC5EeWg8voEG48z4w" name="getLamp" method="_CT1WENC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CQXyYtC5EeWg8voEG48z4w" type="_B9TscNC5EeWg8voEG48z4w" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_B-djANC5EeWg8voEG48z4w" name="getAirConditioner" method="_CT1WEtC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CQYZcNC5EeWg8voEG48z4w" type="_B87R8NC5EeWg8voEG48z4w" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_B-exINC5EeWg8voEG48z4w" name="getThermometer" method="_CT19INC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CQYZcdC5EeWg8voEG48z4w" type="_B92fANC5EeWg8voEG48z4w" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_B-hNYNC5EeWg8voEG48z4w" name="getPowerSmartMeter" method="_CT2kMNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CQYZctC5EeWg8voEG48z4w" type="_B9iV8NC5EeWg8voEG48z4w" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_B-kQsNC5EeWg8voEG48z4w" name="ClientConnection" method="_CT2kMtC5EeWg8voEG48z4w">
+                  <eAnnotations xmi:id="_B-kQsdC5EeWg8voEG48z4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_B-k3wNC5EeWg8voEG48z4w" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_B-k3wdC5EeWg8voEG48z4w" type="_B-R80NC5EeWg8voEG48z4w" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_B-mF4NC5EeWg8voEG48z4w" name="connectClient" method="_CT3LQNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_B-mF4dC5EeWg8voEG48z4w" name="configFile">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CQ-2YNC5EeWg8voEG48z4w" type="_CP21ANC5EeWg8voEG48z4w" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_B-pJMNC5EeWg8voEG48z4w" name="receiveNewMessage"/>
+                <ownedOperation xmi:id="_B-rlcNC5EeWg8voEG48z4w" name="divVal" visibility="private" isStatic="true" method="_CT3yVNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_B-rlcdC5EeWg8voEG48z4w" name="s">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_B-sMgNC5EeWg8voEG48z4w" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_B-uowNC5EeWg8voEG48z4w" name="valueSentFromDeviceSessionDetection" method="_CT4ZY9C5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_B-vP0NC5EeWg8voEG48z4w" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_CQZnkNC5EeWg8voEG48z4w" name="setUserAgentPreferences" method="_CT5AcNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CQZnkdC5EeWg8voEG48z4w" name="userPreferences" type="_B8wS0NC5EeWg8voEG48z4w"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_CQ_dcNC5EeWg8voEG48z4w" name="sendToEntity" method="_CT3yUNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CQ_dcdC5EeWg8voEG48z4w" name="msg">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CQ_dctC5EeWg8voEG48z4w" name="chatClient" type="_CP21ANC5EeWg8voEG48z4w"/>
+                  <ownedParameter xmi:id="_CQ_dc9C5EeWg8voEG48z4w" name="componentName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_CRAEgNC5EeWg8voEG48z4w" name="receiveNewMessage" method="_CT4ZYNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CRArkNC5EeWg8voEG48z4w" name="chatClient" type="_CP21ANC5EeWg8voEG48z4w"/>
+                  <ownedParameter xmi:id="_CRArkdC5EeWg8voEG48z4w" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_CVjNUdC5EeWg8voEG48z4w" name="" memberEnd="_CVj0YNC5EeWg8voEG48z4w _CSkKwNC5EeWg8voEG48z4w">
+                <ownedEnd xmi:id="_CVj0YNC5EeWg8voEG48z4w" name="" type="_B-R80NC5EeWg8voEG48z4w" association="_CVjNUdC5EeWg8voEG48z4w"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_CVlCgdC5EeWg8voEG48z4w" name="" memberEnd="_CVlCgtC5EeWg8voEG48z4w _CSmnANC5EeWg8voEG48z4w">
+                <ownedEnd xmi:id="_CVlCgtC5EeWg8voEG48z4w" name="" type="_B-R80NC5EeWg8voEG48z4w" association="_CVlCgdC5EeWg8voEG48z4w"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_BxjvcNC5EeWg8voEG48z4w" name="messages">
+              <packagedElement xmi:type="uml:Class" xmi:id="_B_F1INC5EeWg8voEG48z4w" name="Connection">
+                <generalization xmi:id="_CQdR8NC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedAttribute xmi:id="_CSwYANC5EeWg8voEG48z4w" name="name" visibility="package">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CT6OkNC5EeWg8voEG48z4w" name="Connection" specification="_B_IRYNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CT6OkdC5EeWg8voEG48z4w" name="string">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CT6OktC5EeWg8voEG48z4w" type="_B_F1INC5EeWg8voEG48z4w" direction="return"/>
+                  <language>java</language>
+                  <body>name=string;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CT61oNC5EeWg8voEG48z4w" name="handle" specification="_B_KtoNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CT61odC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CT61otC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>SmartBuildingListener.connectedEntitiesString = SmartBuildingListener.connectedEntitiesString + &quot;*&quot;+name;
+		  //send the connectedEntitiesString to the user agent
+		  SmartBuildingListener.getClientConnection().sendToEntity(SmartBuildingListener.connectedEntitiesString, SmartBuildingListener.getChatClientUserSession(),&quot;UserAgent&quot;);		
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_B_IRYNC5EeWg8voEG48z4w" name="Connection" method="_CT6OkNC5EeWg8voEG48z4w">
+                  <eAnnotations xmi:id="_B_I4cNC5EeWg8voEG48z4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_B_I4cdC5EeWg8voEG48z4w" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_B_IRYdC5EeWg8voEG48z4w" name="string">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_B_I4ctC5EeWg8voEG48z4w" type="_B_F1INC5EeWg8voEG48z4w" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_B_KtoNC5EeWg8voEG48z4w" name="handle" method="_CT61oNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_B_LUsNC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_B_LUsdC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_B_VswNC5EeWg8voEG48z4w" name="IpAirCondValue">
+                <generalization xmi:id="_CQd5ANC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CT8DwNC5EeWg8voEG48z4w" name="handle" specification="_B_YwENC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CT8DwdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CT8DwtC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>SmartBuildingListener.getClientConnection().getAirConditioner().setIp(value);
+
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_B_YwENC5EeWg8voEG48z4w" name="handle" method="_CT8DwNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_B_YwEdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_B_ZXINC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_B_ePoNC5EeWg8voEG48z4w" name="LampIntenValue">
+                <generalization xmi:id="_CQd5AdC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CT9R4NC5EeWg8voEG48z4w" name="handle" specification="_B_gr4NC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CT9R4dC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CT9R4tC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>double intensity  = Double.parseDouble(value);
+		SmartBuildingListener.getClientConnection().getLamp().setIntensity(intensity);		
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_B_gr4NC5EeWg8voEG48z4w" name="handle" method="_CT9R4NC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_B_gr4dC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_B_gr4tC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_B_oAoNC5EeWg8voEG48z4w" name="LampIntensityRequest">
+                <generalization xmi:id="_CQegENC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CT_HENC5EeWg8voEG48z4w" name="handle" specification="_B_qc4NC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CT_HEdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CT_HEtC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>SmartBuildingListener.getClientConnection().sendToEntity(msgEnv, SmartBuildingListener.getChatClientDeviceSession(),&quot;Lamp&quot;);
+		
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_B_qc4NC5EeWg8voEG48z4w" name="handle" method="_CT_HENC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_B_rD8NC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_B_rD8dC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_B_xKkNC5EeWg8voEG48z4w" name="LampIntensityValue">
+                <generalization xmi:id="_CQfHINC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUAVMNC5EeWg8voEG48z4w" name="handle" specification="_B_0N4NC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUAVMdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUAVMtC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>double intensity  = Double.parseDouble(value);
+		    SmartBuildingListener.getClientConnection().getLamp().setIntensity(intensity);
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_B_0N4NC5EeWg8voEG48z4w" name="handle" method="_CUAVMNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_B_008NC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_B_008dC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_B_7ioNC5EeWg8voEG48z4w" name="LampIpValue">
+                <generalization xmi:id="_CQfHIdC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUBjUNC5EeWg8voEG48z4w" name="handle" specification="_B_-l8NC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUBjUdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUBjUtC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>SmartBuildingListener.getClientConnection().getLamp().setIp(value);
+		
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_B_-l8NC5EeWg8voEG48z4w" name="handle" method="_CUBjUNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_B_-l8dC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_B__NANC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CAFToNC5EeWg8voEG48z4w" name="LampStateRequest">
+                <generalization xmi:id="_CQfuMNC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUCxcNC5EeWg8voEG48z4w" name="handle" specification="_CAHv4NC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUCxcdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUCxctC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>SmartBuildingListener.getClientConnection().sendToEntity(msgEnv, SmartBuildingListener.getChatClientDeviceSession(),&quot;Lamp&quot;);
+		
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_CAHv4NC5EeWg8voEG48z4w" name="handle" method="_CUCxcNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CAHv4dC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CAIW8NC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CAQSwNC5EeWg8voEG48z4w" name="LampStateValue">
+                <generalization xmi:id="_CQgVQNC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedAttribute xmi:id="_CS0pcNC5EeWg8voEG48z4w" name="state" visibility="package">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUD_kNC5EeWg8voEG48z4w" name="LampStateValue" specification="_CASvANC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUEmoNC5EeWg8voEG48z4w" name="string">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUEmodC5EeWg8voEG48z4w" type="_CAQSwNC5EeWg8voEG48z4w" direction="return"/>
+                  <language>java</language>
+                  <body>state=string;
+</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUEmotC5EeWg8voEG48z4w" name="handle" specification="_CAVyUNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUEmo9C5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUEmpNC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>SmartBuildingListener.getClientConnection().getLamp().setState(state);	
+		
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_CASvANC5EeWg8voEG48z4w" name="LampStateValue" method="_CUD_kNC5EeWg8voEG48z4w">
+                  <eAnnotations xmi:id="_CAT9INC5EeWg8voEG48z4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_CAT9IdC5EeWg8voEG48z4w" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_CATWENC5EeWg8voEG48z4w" name="string">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CAT9ItC5EeWg8voEG48z4w" type="_CAQSwNC5EeWg8voEG48z4w" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_CAVyUNC5EeWg8voEG48z4w" name="handle" method="_CUEmotC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CAVyUdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CAVyUtC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CAduINC5EeWg8voEG48z4w" name="Message" isAbstract="true">
+                <ownedComment xmi:id="_CU9-gNC5EeWg8voEG48z4w">
+                  <body>Generic class for all possible message types
+@author emna</body>
+                </ownedComment>
+                <ownedOperation xmi:id="_CAgKYNC5EeWg8voEG48z4w" name="handle" isAbstract="true">
+                  <ownedParameter xmi:id="_CAgxcNC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CAgxcdC5EeWg8voEG48z4w" name="msgToSend">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CAimoNC5EeWg8voEG48z4w" name="PowerConsVal">
+                <generalization xmi:id="_CQg8UNC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUGb0NC5EeWg8voEG48z4w" name="handle" specification="_CAlp8NC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUGb0dC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUGb0tC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>double powerCons  = Double.parseDouble(value);
+		  SmartBuildingListener.getClientConnection().getPowerSmartMeter().setPowerCons(powerCons);
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_CAlp8NC5EeWg8voEG48z4w" name="handle" method="_CUGb0NC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CAmRANC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CAmRAdC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CAuz4NC5EeWg8voEG48z4w" name="PowerProdConsRequest">
+                <generalization xmi:id="_CQg8UdC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUHp8NC5EeWg8voEG48z4w" name="handle" specification="_CAxQINC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUHp8dC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUHp8tC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>SmartBuildingListener.getClientConnection().sendToEntity(msgEnv, SmartBuildingListener.getChatClientDeviceSession(),&quot;PowerSmartMeter&quot;);
+
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_CAxQINC5EeWg8voEG48z4w" name="handle" method="_CUHp8NC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CAx3MNC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CAx3MdC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CA3WwNC5EeWg8voEG48z4w" name="PowerProdVal">
+                <generalization xmi:id="_CQhjYNC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUI4ENC5EeWg8voEG48z4w" name="handle" specification="_CA5zANC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUI4EdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUI4EtC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>double powerProd  = Double.parseDouble(value);
+		  SmartBuildingListener.getClientConnection().getPowerSmartMeter().setPowerProd(powerProd);
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_CA5zANC5EeWg8voEG48z4w" name="handle" method="_CUI4ENC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CA5zAdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CA6aENC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CA_5oNC5EeWg8voEG48z4w" name="PrecisionAirCondValue">
+                <generalization xmi:id="_CQhjYdC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUKtQNC5EeWg8voEG48z4w" name="handle" specification="_CBCV4NC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUKtQdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUKtQtC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>int precision  = Integer.parseInt(value);
+		  SmartBuildingListener.getClientConnection().getAirConditioner().setPrecision(precision);
+
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_CBCV4NC5EeWg8voEG48z4w" name="handle" method="_CUKtQNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CBCV4dC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CBC88NC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CBH1cNC5EeWg8voEG48z4w" name="PrecisionThValue">
+                <generalization xmi:id="_CQiKcNC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUL7YNC5EeWg8voEG48z4w" name="handle" specification="_CBKRsNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUL7YdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUL7YtC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>int precision  = Integer.parseInt(value);
+		  SmartBuildingListener.getClientConnection().getThermometer().setPrecision(precision);
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_CBKRsNC5EeWg8voEG48z4w" name="handle" method="_CUL7YNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CBK4wNC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CBK4wdC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CBQYUNC5EeWg8voEG48z4w" name="PsmIpValue">
+                <generalization xmi:id="_CQiKcdC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUNJgNC5EeWg8voEG48z4w" name="handle" specification="_CBS0kNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUNJgdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUNJgtC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>SmartBuildingListener.getClientConnection().getPowerSmartMeter().setIp(value);
+		  
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_CBS0kNC5EeWg8voEG48z4w" name="handle" method="_CUNJgNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CBS0kdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CBS0ktC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CBYUINC5EeWg8voEG48z4w" name="PsmSendPeriod">
+                <generalization xmi:id="_CQixgNC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUO-sNC5EeWg8voEG48z4w" name="handle" specification="_CBawYNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUO-sdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUO-stC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>long sendingPeriod  = Long.parseLong(value);
+		 SmartBuildingListener.getClientConnection().getPowerSmartMeter().setSendingPeriod(sendingPeriod);
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_CBawYNC5EeWg8voEG48z4w" name="handle" method="_CUO-sNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CBawYdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CBbXcNC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CBgP8NC5EeWg8voEG48z4w" name="ResponseInten">
+                <generalization xmi:id="_CQixgdC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUQM0NC5EeWg8voEG48z4w" name="handle" specification="_CBisMNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUQM0dC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUQM0tC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>double intensity  = Double.parseDouble(value);
+		SmartBuildingListener.getClientConnection().getLamp().setIntensity(intensity);
+		  SmartBuildingListener.getClientConnection().sendToEntity(msgEnv, SmartBuildingListener.getChatClientUserSession(),&quot;UserAgent&quot;);		
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_CBisMNC5EeWg8voEG48z4w" name="handle" method="_CUQM0NC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CBjTQNC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CBjTQdC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CBoy0NC5EeWg8voEG48z4w" name="ResponsePowerCons">
+                <generalization xmi:id="_CQjYkNC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CURa8NC5EeWg8voEG48z4w" name="handle" specification="_CBr2INC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CURa8dC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CURa8tC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>double powerCons  = Double.parseDouble(value);
+		SmartBuildingListener.getClientConnection().getPowerSmartMeter().setPowerCons(powerCons);
+		SmartBuildingListener.getClientConnection().sendToEntity(msgEnv, SmartBuildingListener.getChatClientUserSession(),&quot;UserAgent&quot;);		
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_CBr2INC5EeWg8voEG48z4w" name="handle" method="_CURa8NC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CBr2IdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CBsdMNC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CBzx8NC5EeWg8voEG48z4w" name="ResponsePowerProd">
+                <generalization xmi:id="_CQj_oNC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUSpENC5EeWg8voEG48z4w" name="handle" specification="_CB4DYNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUSpEdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUSpEtC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>double powerProd  = Double.parseDouble(value);
+		SmartBuildingListener.getClientConnection().getPowerSmartMeter().setPowerProd(powerProd);
+		  //System.out.println(&quot;11111111&quot;);
+
+		SmartBuildingListener.getClientConnection().sendToEntity(msgEnv, SmartBuildingListener.getChatClientUserSession(),&quot;UserAgent&quot;);		
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_CB4DYNC5EeWg8voEG48z4w" name="handle" method="_CUSpENC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CB4qcNC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CB4qcdC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CB874NC5EeWg8voEG48z4w" name="ResponseState">
+                <generalization xmi:id="_CQj_odC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedAttribute xmi:id="_CS5h8NC5EeWg8voEG48z4w" name="state" visibility="package">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUUeQNC5EeWg8voEG48z4w" name="ResponseState" specification="_CB__MNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUUeQdC5EeWg8voEG48z4w" name="string">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUUeQtC5EeWg8voEG48z4w" type="_CB874NC5EeWg8voEG48z4w" direction="return"/>
+                  <language>java</language>
+                  <body>state=string;</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUVFUNC5EeWg8voEG48z4w" name="handle" specification="_CCDpkNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUVFUdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUVFUtC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>SmartBuildingListener.getClientConnection().getLamp().setState(state);
+		SmartBuildingListener.getClientConnection().sendToEntity(msgEnv, SmartBuildingListener.getChatClientUserSession(),&quot;UserAgent&quot;);		
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_CB__MNC5EeWg8voEG48z4w" name="ResponseState" method="_CUUeQNC5EeWg8voEG48z4w">
+                  <eAnnotations xmi:id="_CCAmQNC5EeWg8voEG48z4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_CCAmQdC5EeWg8voEG48z4w" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_CB__MdC5EeWg8voEG48z4w" name="string">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CCAmQtC5EeWg8voEG48z4w" type="_CB874NC5EeWg8voEG48z4w" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_CCDpkNC5EeWg8voEG48z4w" name="handle" method="_CUVFUNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CCDpkdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CCEQoNC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CCJJINC5EeWg8voEG48z4w" name="ResponseTempAirCond">
+                <generalization xmi:id="_CQkmsNC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUW6gNC5EeWg8voEG48z4w" name="handle" specification="_CCLlYNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUW6gdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUW6gtC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>double tempValue  = Double.parseDouble(value);
+		 SmartBuildingListener.getClientConnection().getAirConditioner().setTempValue(tempValue);
+		 SmartBuildingListener.getClientConnection().sendToEntity(msgEnv, SmartBuildingListener.getChatClientUserSession(),&quot;UserAgent&quot;);		
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_CCLlYNC5EeWg8voEG48z4w" name="handle" method="_CUW6gNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CCLlYdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CCMMcNC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CCQd4NC5EeWg8voEG48z4w" name="ResponseTempThermometer">
+                <generalization xmi:id="_CQlNwNC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUYIoNC5EeWg8voEG48z4w" name="handle" specification="_CCSTENC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUYIodC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUYIotC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>double tempValue  = Double.parseDouble(value);
+		SmartBuildingListener.getClientConnection().getThermometer().setTempValue(tempValue);
+		SmartBuildingListener.getClientConnection().sendToEntity(msgEnv, SmartBuildingListener.getChatClientUserSession(),&quot;UserAgent&quot;);
+		  //System.out.println(&quot;-----> &quot; + tempValueString + &quot; tempValue measured by the thermometer (double)&quot; );		
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_CCSTENC5EeWg8voEG48z4w" name="handle" method="_CUYIoNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CCSTEdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CCSTEtC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CCV9cNC5EeWg8voEG48z4w" name="TempAirCondRequest">
+                <generalization xmi:id="_CQlNwdC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUZWwNC5EeWg8voEG48z4w" name="handle" specification="_CCYZsNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUZWwdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUZWwtC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>SmartBuildingListener.getClientConnection().sendToEntity(msgEnv, SmartBuildingListener.getChatClientDeviceSession(),&quot;AirConditioner&quot;);
+		
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_CCYZsNC5EeWg8voEG48z4w" name="handle" method="_CUZWwNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CCZAwNC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CCZAwdC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CCcrINC5EeWg8voEG48z4w" name="TempAirCondValue">
+                <generalization xmi:id="_CQl00NC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUak4NC5EeWg8voEG48z4w" name="handle" specification="_CCd5QNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUak4dC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUak4tC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>double tempValue  = Double.parseDouble(value);
+		SmartBuildingListener.getClientConnection().getAirConditioner().setTempValue(tempValue);
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_CCd5QNC5EeWg8voEG48z4w" name="handle" method="_CUak4NC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CCegUNC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CCegUdC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CCiKsNC5EeWg8voEG48z4w" name="TempThermometerRequest">
+                <generalization xmi:id="_CQmb4NC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUbzANC5EeWg8voEG48z4w" name="handle" specification="_CCj_4NC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUbzAdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUbzAtC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>SmartBuildingListener.getClientConnection().sendToEntity(msgEnv, SmartBuildingListener.getChatClientDeviceSession(),&quot;Thermometer&quot;);
+
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_CCj_4NC5EeWg8voEG48z4w" name="handle" method="_CUbzANC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CCj_4dC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CCkm8NC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CCnDMNC5EeWg8voEG48z4w" name="ThIpValue">
+                <generalization xmi:id="_CQmb4dC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUdBINC5EeWg8voEG48z4w" name="handle" specification="_CCo4YNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUdBIdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUdBItC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>SmartBuildingListener.getClientConnection().getThermometer().setIp(value);
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_CCo4YNC5EeWg8voEG48z4w" name="handle" method="_CUdBINC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CCo4YdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CCpfcNC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CCsiwNC5EeWg8voEG48z4w" name="ThMeasurePeriodValue">
+                <generalization xmi:id="_CQnC8NC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUe2UNC5EeWg8voEG48z4w" name="handle" specification="_CCtw4NC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUe2UdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUe2UtC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>long measurementPeriod = Long.parseLong(value);
+		  SmartBuildingListener.getClientConnection().getThermometer().setMeasurementPeriod(measurementPeriod);
+		  //System.out.println(&quot;-----> &quot; + measurementPeriodString + &quot; measurement period (long)&quot; );
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_CCtw4NC5EeWg8voEG48z4w" name="handle" method="_CUe2UNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CCuX8NC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CCuX8dC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CCw0MNC5EeWg8voEG48z4w" name="ThTempOrSendPeriod">
+                <generalization xmi:id="_CQnC8dC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUgEcNC5EeWg8voEG48z4w" name="handle" specification="_CCypYNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUgEcdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUgEctC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>try //if the message is a long => the period of sending to the building manager
+	   	  {
+				 long sendingPeriod  = Long.parseLong(value);
+				 SmartBuildingListener.getClientConnection().getThermometer().setSendingPeriod(sendingPeriod);
+	   		// System.out.println(msg + &quot;-----> sending period (long)&quot; );
+	   	  } 
+	   	  catch (NumberFormatException nfe) 
+	   	  {
+	   		   //if the message is a double => temperature value 
+		    	
+		    		    double tempValue  = Double.parseDouble(value);
+		    		    SmartBuildingListener.getClientConnection().getThermometer().setTempValue(tempValue);
+		    		    //System.out.println(&quot;-----> &quot; + msg + &quot; temperature value (double)&quot; );
+		    	  
+	   		  
+		}
+
+</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_CCypYNC5EeWg8voEG48z4w" name="handle" method="_CUgEcNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CCypYdC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CCypYtC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CC260NC5EeWg8voEG48z4w" name="UserLampIntenValue">
+                <generalization xmi:id="_CQnqANC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUh5oNC5EeWg8voEG48z4w" name="handle" specification="_CC4I8NC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUh5odC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUh5otC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>double intensity  = Double.parseDouble(value);
+		 SmartBuildingListener.getClientConnection().getLamp().setIntensity(intensity);
+		 SmartBuildingListener.getClientConnection().getUserAgentPreferences().setLampIntensity(intensity);
+
+		  SmartBuildingListener.getClientConnection().sendToEntity(msgEnv, SmartBuildingListener.getChatClientDeviceSession(),&quot;Lamp&quot;);
+		  //System.out.println(&quot;-----> &quot; + intensityString + &quot; user lamp intensity (double)&quot; );		
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_CC4I8NC5EeWg8voEG48z4w" name="handle" method="_CUh5oNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CC4wANC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CC4wAdC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CC7MQNC5EeWg8voEG48z4w" name="UserLampStateValue">
+                <generalization xmi:id="_CQnqAdC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedAttribute xmi:id="_CS-acNC5EeWg8voEG48z4w" name="state" visibility="package">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUjHwNC5EeWg8voEG48z4w" name="UserLampStateValue" specification="_CC8aYNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUjHwdC5EeWg8voEG48z4w" name="string">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUjHwtC5EeWg8voEG48z4w" type="_CC7MQNC5EeWg8voEG48z4w" direction="return"/>
+                  <language>java</language>
+                  <body>state=string;	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUju0NC5EeWg8voEG48z4w" name="handle" specification="_CC9BcdC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUju0dC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUju0tC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>SmartBuildingListener.getClientConnection().getLamp().setState(state);	
+		
+		
+		SmartBuildingListener.getClientConnection().sendToEntity(msgEnv, SmartBuildingListener.getChatClientDeviceSession(),&quot;Lamp&quot;);
+		
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_CC8aYNC5EeWg8voEG48z4w" name="UserLampStateValue" method="_CUjHwNC5EeWg8voEG48z4w">
+                  <eAnnotations xmi:id="_CC8aYtC5EeWg8voEG48z4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_CC8aY9C5EeWg8voEG48z4w" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_CC8aYdC5EeWg8voEG48z4w" name="string">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CC9BcNC5EeWg8voEG48z4w" type="_CC7MQNC5EeWg8voEG48z4w" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_CC9BcdC5EeWg8voEG48z4w" name="handle" method="_CUju0NC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CC9ogNC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CC9ogdC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CDAr0NC5EeWg8voEG48z4w" name="UserTempAirCondValue">
+                <generalization xmi:id="_CQoRENC5EeWg8voEG48z4w" general="_CAduINC5EeWg8voEG48z4w"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUk88NC5EeWg8voEG48z4w" name="handle" specification="_CDBS4NC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CUk88dC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CUk88tC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>double tempVal  = Double.parseDouble(value);
+		SmartBuildingListener.getClientConnection().getAirConditioner().setTempValue(tempVal);
+		SmartBuildingListener.getClientConnection().getUserAgentPreferences().setTempValueAC(tempVal);
+		SmartBuildingListener.getClientConnection().sendToEntity(msgEnv, SmartBuildingListener.getChatClientDeviceSession(),&quot;AirConditioner&quot;);		
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_CDBS4NC5EeWg8voEG48z4w" name="handle" method="_CUk88NC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CDBS4dC5EeWg8voEG48z4w" name="value">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CDBS4tC5EeWg8voEG48z4w" name="msgEnv">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_BywCQNC5EeWg8voEG48z4w" name="client">
+              <packagedElement xmi:type="uml:Class" xmi:id="_B8wS0NC5EeWg8voEG48z4w" name="UserAgent">
+                <generalization xmi:id="_CQNaUNC5EeWg8voEG48z4w" general="_B9JUYNC5EeWg8voEG48z4w"/>
+                <ownedAttribute xmi:id="_CSJUANC5EeWg8voEG48z4w" name="LampIntensity">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_CSJUAdC5EeWg8voEG48z4w" value="0"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_CSKiINC5EeWg8voEG48z4w" name="TempValueAC">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_CSKiIdC5EeWg8voEG48z4w" value="0"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CTrlENC5EeWg8voEG48z4w" name="UserAgent" specification="_B8z9MNC5EeWg8voEG48z4w">
+                  <ownedParameter xmi:id="_CTrlEdC5EeWg8voEG48z4w" name="name">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_CTrlEtC5EeWg8voEG48z4w" type="_B8wS0NC5EeWg8voEG48z4w" direction="return"/>
+                  <language>java</language>
+                  <body>this.name=name;</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_B8z9MNC5EeWg8voEG48z4w" name="UserAgent" method="_CTrlENC5EeWg8voEG48z4w">
+                  <eAnnotations xmi:id="_B81LUNC5EeWg8voEG48z4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_B81LUdC5EeWg8voEG48z4w" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_B80kQNC5EeWg8voEG48z4w" name="name">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_B81LUtC5EeWg8voEG48z4w" type="_B8wS0NC5EeWg8voEG48z4w" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_BywCQdC5EeWg8voEG48z4w" name="entities">
+                <packagedElement xmi:type="uml:Class" xmi:id="_B87R8NC5EeWg8voEG48z4w" name="AirConditioner">
+                  <ownedComment xmi:id="_CU5GANC5EeWg8voEG48z4w">
+                    <body>@author Imen
+--- This class is a container for the air conditioner data. This includes the air conditioner informations
+which consist of the temperature value, the digits precision of the temperature value and the period of sending values to the building manager ---</body>
+                  </ownedComment>
+                  <generalization xmi:id="_CQOocNC5EeWg8voEG48z4w" general="_B9JUYNC5EeWg8voEG48z4w"/>
+                  <ownedAttribute xmi:id="_CSMXUNC5EeWg8voEG48z4w" name="tempValue">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_CSNlcNC5EeWg8voEG48z4w" name="precision">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CTszMNC5EeWg8voEG48z4w" name="AirConditioner" specification="_B9BYkNC5EeWg8voEG48z4w">
+                    <ownedParameter xmi:id="_CTszMdC5EeWg8voEG48z4w" name="name">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_CTszMtC5EeWg8voEG48z4w" name="tempValue">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_CTszM9C5EeWg8voEG48z4w" name="precision">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_CTszNNC5EeWg8voEG48z4w" type="_B87R8NC5EeWg8voEG48z4w" direction="return"/>
+                    <language>java</language>
+                    <body>this.name=name;
+		this.tempValue = tempValue;
+		this.precision = precision;
+	</body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_B8-VQNC5EeWg8voEG48z4w" name="AirConditioner">
+                    <eAnnotations xmi:id="_B8-8UNC5EeWg8voEG48z4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_B8-8UdC5EeWg8voEG48z4w" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_B9AKcNC5EeWg8voEG48z4w" type="_B87R8NC5EeWg8voEG48z4w" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_B9BYkNC5EeWg8voEG48z4w" name="AirConditioner" method="_CTszMNC5EeWg8voEG48z4w">
+                    <eAnnotations xmi:id="_B9CmsNC5EeWg8voEG48z4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_B9CmsdC5EeWg8voEG48z4w" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_B9B_oNC5EeWg8voEG48z4w" name="name">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_B9B_odC5EeWg8voEG48z4w" name="tempValue">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_B9B_otC5EeWg8voEG48z4w" name="precision">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_B9DNwNC5EeWg8voEG48z4w" type="_B87R8NC5EeWg8voEG48z4w" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_B9JUYNC5EeWg8voEG48z4w" name="Entity" isAbstract="true">
+                  <ownedComment xmi:id="_CU5tENC5EeWg8voEG48z4w">
+                    <body>Generic class for all entities
+@author emna
+ *</body>
+                  </ownedComment>
+                  <ownedAttribute xmi:id="_CSPaoNC5EeWg8voEG48z4w" name="name" visibility="protected">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_CSRP0NC5EeWg8voEG48z4w" name="ip">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CTtaQNC5EeWg8voEG48z4w" name="getName" specification="_B9MXsNC5EeWg8voEG48z4w">
+                    <ownedParameter xmi:id="_CTtaQdC5EeWg8voEG48z4w" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>return name;
+</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CTtaQtC5EeWg8voEG48z4w" name="setName" specification="_B9Oz8NC5EeWg8voEG48z4w">
+                    <ownedParameter xmi:id="_CTtaQ9C5EeWg8voEG48z4w" name="name">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>this.name = name;
+</body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_B9MXsNC5EeWg8voEG48z4w" name="getName" method="_CTtaQNC5EeWg8voEG48z4w">
+                    <ownedParameter xmi:id="_B9Nl0NC5EeWg8voEG48z4w" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_B9Oz8NC5EeWg8voEG48z4w" name="setName" method="_CTtaQtC5EeWg8voEG48z4w">
+                    <ownedParameter xmi:id="_B9Oz8dC5EeWg8voEG48z4w" name="name">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_B9TscNC5EeWg8voEG48z4w" name="Lamp">
+                  <ownedComment xmi:id="_CU5tEdC5EeWg8voEG48z4w">
+                    <body>@author Imen
+--- This class is a container for the lamp data. This includes the lamp informations which consist of 
+the state (on/off), the intensity of luminosity and the period of sending values to the building manager ---</body>
+                  </ownedComment>
+                  <generalization xmi:id="_CQP2kNC5EeWg8voEG48z4w" general="_B9JUYNC5EeWg8voEG48z4w"/>
+                  <ownedAttribute xmi:id="_CSTFANC5EeWg8voEG48z4w" name="state">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_CSTsENC5EeWg8voEG48z4w" name="intensity">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CTuBUNC5EeWg8voEG48z4w" name="Lamp" specification="_B9aaINC5EeWg8voEG48z4w">
+                    <ownedParameter xmi:id="_CTuBUdC5EeWg8voEG48z4w" name="name">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_CTuBUtC5EeWg8voEG48z4w" name="state">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_CTuBU9C5EeWg8voEG48z4w" name="intensity">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_CTuBVNC5EeWg8voEG48z4w" type="_B9TscNC5EeWg8voEG48z4w" direction="return"/>
+                    <language>java</language>
+                    <body>this.name=name;
+		this.state= state;
+		this.intensity=intensity;
+	</body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_B9WvwNC5EeWg8voEG48z4w" name="Lamp">
+                    <eAnnotations xmi:id="_B9XW0NC5EeWg8voEG48z4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_B9XW0dC5EeWg8voEG48z4w" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_B9Yk8dC5EeWg8voEG48z4w" type="_B9TscNC5EeWg8voEG48z4w" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_B9aaINC5EeWg8voEG48z4w" name="Lamp" method="_CTuBUNC5EeWg8voEG48z4w">
+                    <eAnnotations xmi:id="_B9boQNC5EeWg8voEG48z4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_B9cPUNC5EeWg8voEG48z4w" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_B9aaIdC5EeWg8voEG48z4w" name="name">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_B9bBMNC5EeWg8voEG48z4w" name="state">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_B9bBMdC5EeWg8voEG48z4w" name="intensity">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_B9cPUdC5EeWg8voEG48z4w" type="_B9TscNC5EeWg8voEG48z4w" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_B9iV8NC5EeWg8voEG48z4w" name="PowerSmartMeter">
+                  <ownedComment xmi:id="_CU6UINC5EeWg8voEG48z4w">
+                    <body>@author Imen
+--- This class is a container for the power smart meter data. This includes the power smart meter information
+which consists of the power consumption value (electricity consumption value) and the period of sending values 
+to the building manager---</body>
+                  </ownedComment>
+                  <generalization xmi:id="_CQQdoNC5EeWg8voEG48z4w" general="_B9JUYNC5EeWg8voEG48z4w"/>
+                  <ownedAttribute xmi:id="_CSWIUNC5EeWg8voEG48z4w" name="powerProd">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_CSXWcNC5EeWg8voEG48z4w" name="powerCons">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_CSX9gNC5EeWg8voEG48z4w" name="sendingPeriod">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_CSYkkNC5EeWg8voEG48z4w" name="measurementPeriod">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CTvPcNC5EeWg8voEG48z4w" name="PowerSmartMeter" specification="_B9qRwNC5EeWg8voEG48z4w">
+                    <ownedParameter xmi:id="_CTvPcdC5EeWg8voEG48z4w" name="name">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_CTvPctC5EeWg8voEG48z4w" name="powerProd">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_CTvPc9C5EeWg8voEG48z4w" name="powerCons">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_CTvPdNC5EeWg8voEG48z4w" name="measurementPeriod">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_CTvPddC5EeWg8voEG48z4w" name="sendingPeriod">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_CTvPdtC5EeWg8voEG48z4w" type="_B9iV8NC5EeWg8voEG48z4w" direction="return"/>
+                    <language>java</language>
+                    <body>this.name=name;
+		this.powerProd = powerProd;
+		this.powerCons = powerCons;
+		this.sendingPeriod = sendingPeriod;
+		this.measurementPeriod = measurementPeriod;
+
+	</body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_B9mAUNC5EeWg8voEG48z4w" name="PowerSmartMeter">
+                    <eAnnotations xmi:id="_B9nOcNC5EeWg8voEG48z4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_B9nOcdC5EeWg8voEG48z4w" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_B9n1gdC5EeWg8voEG48z4w" type="_B9iV8NC5EeWg8voEG48z4w" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_B9qRwNC5EeWg8voEG48z4w" name="PowerSmartMeter" method="_CTvPcNC5EeWg8voEG48z4w">
+                    <eAnnotations xmi:id="_B9sG8NC5EeWg8voEG48z4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_B9sG8dC5EeWg8voEG48z4w" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_B9qRwdC5EeWg8voEG48z4w" name="name">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_B9q40NC5EeWg8voEG48z4w" name="powerProd">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_B9q40dC5EeWg8voEG48z4w" name="powerCons">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_B9q40tC5EeWg8voEG48z4w" name="measurementPeriod">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_B9rf4NC5EeWg8voEG48z4w" name="sendingPeriod">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_B9sG8tC5EeWg8voEG48z4w" type="_B9iV8NC5EeWg8voEG48z4w" direction="return"/>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Class" xmi:id="_B92fANC5EeWg8voEG48z4w" name="Thermometer">
+                  <ownedComment xmi:id="_CU67MNC5EeWg8voEG48z4w">
+                    <body>@author Imen
+--- This class is a container for the thermometer data. This includes the thermometer informations
+which consist of the temperature value and the period of sending values to the building manager---</body>
+                  </ownedComment>
+                  <generalization xmi:id="_CQSS0NC5EeWg8voEG48z4w" general="_B9JUYNC5EeWg8voEG48z4w"/>
+                  <ownedAttribute xmi:id="_CSbn4NC5EeWg8voEG48z4w" name="tempValue" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_CSc2ANC5EeWg8voEG48z4w" name="precision" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_CSf5UNC5EeWg8voEG48z4w" name="measurementPeriod" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_CSggYNC5EeWg8voEG48z4w" name="sendingPeriod" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                  </ownedAttribute>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CTwdkdC5EeWg8voEG48z4w" name="Thermometer" specification="_B9_o8NC5EeWg8voEG48z4w">
+                    <ownedParameter xmi:id="_CTwdktC5EeWg8voEG48z4w" name="name">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_CTwdk9C5EeWg8voEG48z4w" name="tempValue">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_CTwdlNC5EeWg8voEG48z4w" name="measurementPeriod">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_CTwdldC5EeWg8voEG48z4w" name="sendingPeriod">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_CTwdltC5EeWg8voEG48z4w" type="_B92fANC5EeWg8voEG48z4w" direction="return"/>
+                    <language>java</language>
+                    <body>this.name=name;
+		this.tempValue = tempValue;
+		this.measurementPeriod = measurementPeriod;
+		this.sendingPeriod = sendingPeriod;
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CTxEoNC5EeWg8voEG48z4w" name="setTempValue" specification="_B-DTUNC5EeWg8voEG48z4w">
+                    <ownedParameter xmi:id="_CTxEodC5EeWg8voEG48z4w" name="tempValue">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>this.tempValue = tempValue;
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CTxrsNC5EeWg8voEG48z4w" name="setPrecision" specification="_B-FIgNC5EeWg8voEG48z4w">
+                    <ownedParameter xmi:id="_CTxrsdC5EeWg8voEG48z4w" name="precision">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>this.precision = precision;
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CTySwNC5EeWg8voEG48z4w" name="setMeasurementPeriod" specification="_B-G9sNC5EeWg8voEG48z4w">
+                    <ownedParameter xmi:id="_CTySwdC5EeWg8voEG48z4w" name="listeningPeriod">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>this.measurementPeriod = listeningPeriod;
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CTySwtC5EeWg8voEG48z4w" name="setSendingPeriod" specification="_B-Iy4NC5EeWg8voEG48z4w">
+                    <ownedParameter xmi:id="_CTySw9C5EeWg8voEG48z4w" name="sendingPeriod">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>this.sendingPeriod = sendingPeriod;
+	</body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_B97-kNC5EeWg8voEG48z4w" name="Thermometer">
+                    <eAnnotations xmi:id="_B98loNC5EeWg8voEG48z4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_B98lodC5EeWg8voEG48z4w" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_B99zwdC5EeWg8voEG48z4w" type="_B92fANC5EeWg8voEG48z4w" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_B9_o8NC5EeWg8voEG48z4w" name="Thermometer" method="_CTwdkdC5EeWg8voEG48z4w">
+                    <eAnnotations xmi:id="_B-BeINC5EeWg8voEG48z4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_B-BeIdC5EeWg8voEG48z4w" key="create"/>
+                    </eAnnotations>
+                    <ownedComment xmi:id="_CU7iQNC5EeWg8voEG48z4w">
+                      <body>Basic constructor
+	 * 
+	 * @param tempValue
+	 *            the temperature value of the thermometer
+	 * @param precision
+	 * 			  the digits precision of the temperature value
+	 * @param measurementPeriod
+	 * 			  the period of listening/measuring the temperature value
+	 * @param sendingPeriod
+	 * 			  the period of sending the power smart meter characteristics values to the building manager</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_B-AQANC5EeWg8voEG48z4w" name="name">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_B-AQAdC5EeWg8voEG48z4w" name="tempValue">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_B-AQAtC5EeWg8voEG48z4w" name="measurementPeriod">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_B-A3ENC5EeWg8voEG48z4w" name="sendingPeriod">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_B-BeItC5EeWg8voEG48z4w" type="_B92fANC5EeWg8voEG48z4w" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_B-DTUNC5EeWg8voEG48z4w" name="setTempValue" method="_CTxEoNC5EeWg8voEG48z4w">
+                    <ownedComment xmi:id="_CU7iQdC5EeWg8voEG48z4w">
+                      <body>Sets the temperature value of the thermometer
+	 * 
+	 * @param state
+	 *            the temperature value of the thermometer</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_B-DTUdC5EeWg8voEG48z4w" name="tempValue">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_B-FIgNC5EeWg8voEG48z4w" name="setPrecision" method="_CTxrsNC5EeWg8voEG48z4w">
+                    <ownedComment xmi:id="_CU7iQtC5EeWg8voEG48z4w">
+                      <body>Sets the digits precision of the temperature value 
+	 * 
+	 * @param precision
+	 *            the digits precision of the temperature value</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_B-FvkNC5EeWg8voEG48z4w" name="precision">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_B-G9sNC5EeWg8voEG48z4w" name="setMeasurementPeriod" method="_CTySwNC5EeWg8voEG48z4w">
+                    <ownedComment xmi:id="_CU7iQ9C5EeWg8voEG48z4w">
+                      <body>Sets the period of listening to the temperature value 
+	 * 
+	 * @param sendingPeriod
+	 *            the period of listening to the temperature value</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_B-HkwNC5EeWg8voEG48z4w" name="listeningPeriod">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_B-Iy4NC5EeWg8voEG48z4w" name="setSendingPeriod" method="_CTySwtC5EeWg8voEG48z4w">
+                    <ownedComment xmi:id="_CU8JUNC5EeWg8voEG48z4w">
+                      <body>Sets the period of sending the temperature value to the building manager
+	 * 
+	 * @param sendingPeriod
+	 *            the period of sending the temperature value to the building manager</body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_B-JZ8NC5EeWg8voEG48z4w" name="sendingPeriod">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </packagedElement>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_B0txINC5EeWg8voEG48z4w" name="facus">
+              <packagedElement xmi:type="uml:Class" xmi:id="_B_D_8NC5EeWg8voEG48z4w" name="SmartBuildingApplicationLayer"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_B7jY8NC5EeWg8voEG48z4w" name="SmartBuildingManager">
+              <generalization xmi:id="_CQ4IsNC5EeWg8voEG48z4w" general="_CQwz8dC5EeWg8voEG48z4w"/>
+              <ownedAttribute xmi:id="_CRVbsNC5EeWg8voEG48z4w" name="msgList" visibility="private" isStatic="true" type="_CQB0IdC5EeWg8voEG48z4w" association="_CVh_MdC5EeWg8voEG48z4w">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CRXQ4dC5EeWg8voEG48z4w" value="new Hashtable&lt;String,Message>() {{&#xA;&#x9;put(&quot;Lamp : &quot;,  new LampIntensityValue()); put(&quot;Lamp : on&quot;,  new LampStateValue(&quot;on&quot;)); &#xA;&#x9;put(&quot;Lamp : off&quot;,  new LampStateValue(&quot;off&quot;));put(&quot;Lamp : ip&quot;,  new LampIpValue());&#xA;&#x9;put(&quot;Lamp : ResponseStateon&quot;, new ResponseState(&quot;on&quot;) );put(&quot;Lamp : ResponseStateoff&quot;, new ResponseState(&quot;off&quot;) );&#xA;&#x9;put(&quot;Lamp : ResponseInten&quot;,  new ResponseInten());put(&quot;Lamp : LampConnected&quot;, new Connection(&quot;Lamp&quot;));&#xA;&#x9;&#xA;&#x9;put(&quot;AirConditioner : &quot;, new TempAirCondValue());put(&quot;AirConditioner : p&quot;, new PrecisionAirCondValue());&#xA;&#x9;put(&quot;AirConditioner : ip&quot;,  new IpAirCondValue());put(&quot;AirConditioner : ResponseTempAirCond&quot;, new ResponseTempAirCond());&#xA;&#x9;put(&quot;AirConditioner : AirConditionerConnected&quot;, new Connection(&quot;AirConditioner&quot;));&#xA;&#x9;&#xA;&#x9;put(&quot;Thermometer : &quot;, new ThTempOrSendPeriod()); put(&quot;Thermometer : ThermometerConnected&quot;, new Connection(&quot;Thermometer&quot;));&#xA;&#x9;put(&quot;Thermometer : p&quot;, new PrecisionThValue());put(&quot;Thermometer : m&quot;, new ThMeasurePeriodValue());&#xA;&#x9;put(&quot;Thermometer : ip&quot;,  new ThIpValue());put(&quot;Thermometer : ResponseTempThermometer&quot;, new ResponseTempThermometer());&#xA;&#x9;&#xA;&#x9;put(&quot;PowerSmartMeter : &quot;, new PsmSendPeriod());put(&quot;PowerSmartMeter : c&quot;, new PowerConsVal());&#xA;&#x9;put(&quot;PowerSmartMeter : p&quot;, new PowerProdVal());put(&quot;PowerSmartMeter : ip&quot;,  new PsmIpValue());&#xA;&#x9;put(&quot;PowerSmartMeter : ResponsePowerProd&quot;, new ResponsePowerProd());put(&quot;PowerSmartMeter : ResponsePowerCons&quot;, new ResponsePowerCons());&#xA;&#x9;put(&quot;PowerSmartMeter : PowerSmartMeterConnected&quot;, new Connection(&quot;PowerSmartMeter&quot;));&#xA;&#xA;&#x9;put(&quot;UserAgent : powerProdRequest&quot;, new PowerProdConsRequest());put(&quot;UserAgent : powerConsRequest&quot;, new PowerProdConsRequest());&#xA;&#x9;put(&quot;UserAgent : tempAirCondRequest&quot;, new TempAirCondRequest());put(&quot;UserAgent : tempThermometerRequest&quot;, new TempThermometerRequest());&#xA;&#x9;put(&quot;UserAgent : lampStateRequest&quot;, new LampStateRequest());put(&quot;UserAgent : lampIntensityRequest&quot;, new LampIntensityRequest());&#xA;&#x9;put(&quot;UserAgent : userLampStateValueon&quot;, new UserLampStateValue(&quot;on&quot;));put(&quot;UserAgent : userLampStateValueoff&quot;, new UserLampStateValue(&quot;off&quot;));&#xA;&#x9;put(&quot;UserAgent : userLampIntenValue&quot;, new UserLampIntenValue());put(&quot;UserAgent : userTempAirCondValue&quot;, new UserTempAirCondValue());&#xA;&#x9;}}"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_CRZtINC5EeWg8voEG48z4w" name="date" visibility="private" isStatic="true" type="_CP_-8NC5EeWg8voEG48z4w"/>
+              <ownedAttribute xmi:id="_CRbiUNC5EeWg8voEG48z4w" name="time" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CRcJYNC5EeWg8voEG48z4w" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_CRcwcdC5EeWg8voEG48z4w" name="compteur" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CRdXgNC5EeWg8voEG48z4w" value="1"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_CReloNC5EeWg8voEG48z4w" name="augmentation" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CRelodC5EeWg8voEG48z4w" value="false"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_CRfzwdC5EeWg8voEG48z4w" name="confort" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CRga0NC5EeWg8voEG48z4w" value="false"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_CRho8NC5EeWg8voEG48z4w" name="test" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CRho8dC5EeWg8voEG48z4w" value="false"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_CRi3ENC5EeWg8voEG48z4w" name="testInverse" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CRjeINC5EeWg8voEG48z4w" value="false"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_CRksQNC5EeWg8voEG48z4w" name="getMeasurementPeriodThInit" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CRlTUNC5EeWg8voEG48z4w" value="SmartBuildingListener.getClientConnection().getThermometer().getMeasurementPeriod()"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_CRmhcNC5EeWg8voEG48z4w" name="getSendingPeriodThInit" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CRnIgNC5EeWg8voEG48z4w" value="SmartBuildingListener.getClientConnection().getThermometer().getSendingPeriod()"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_CRoWoNC5EeWg8voEG48z4w" name="getSendingPeriodPSMInit" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CRoWodC5EeWg8voEG48z4w" value="SmartBuildingListener.getClientConnection().getPowerSmartMeter().getSendingPeriod()"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_CRpkwNC5EeWg8voEG48z4w" name="getMeasurementPeriodPSMInit" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CRqL0NC5EeWg8voEG48z4w" value="SmartBuildingListener.getClientConnection().getPowerSmartMeter().getMeasurementPeriod()"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_CRrZ8NC5EeWg8voEG48z4w" name="rouge" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CRrZ8dC5EeWg8voEG48z4w" value="&quot;\u001B[31m&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_CRsoENC5EeWg8voEG48z4w" name="vert" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CRsoEdC5EeWg8voEG48z4w" value="&quot;\u001B[32m&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_CRt2MdC5EeWg8voEG48z4w" name="jaune" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CRudQNC5EeWg8voEG48z4w" value="&quot;\u001B[33m&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_CRvrYNC5EeWg8voEG48z4w" name="bleu" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CRvrYdC5EeWg8voEG48z4w" value="&quot;\u001B[34m&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_CRxgkNC5EeWg8voEG48z4w" name="cyan" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CRyHoNC5EeWg8voEG48z4w" value="&quot;\u001B[36m&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_CRzVwNC5EeWg8voEG48z4w" name="magenta" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CRzVwdC5EeWg8voEG48z4w" value="&quot;\u001B[35m&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_CR0j4dC5EeWg8voEG48z4w" name="gris" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CR1K8NC5EeWg8voEG48z4w" value="&quot;\u001B[37m&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_CR2ZENC5EeWg8voEG48z4w" name="rougeGras" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CR2ZEdC5EeWg8voEG48z4w" value="&quot;\u001b[1;31m&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_CR3nMNC5EeWg8voEG48z4w" name="vertGras" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CR4OQNC5EeWg8voEG48z4w" value="&quot;\u001b[1;32m&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_CR41UdC5EeWg8voEG48z4w" name="jauneGras" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CR5cYNC5EeWg8voEG48z4w" value="&quot;\u001b[1;33m&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_CR6qgNC5EeWg8voEG48z4w" name="bleuGras" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CR7RkNC5EeWg8voEG48z4w" value="&quot;\u001b[1;34m&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_CR8fsNC5EeWg8voEG48z4w" name="magentaGras" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CR9GwNC5EeWg8voEG48z4w" value="&quot;\u001b[1;35m&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_CR-U4NC5EeWg8voEG48z4w" name="cyanGras" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CR-U4dC5EeWg8voEG48z4w" value="&quot;\u001b[1;36m&quot;"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_CR_jAdC5EeWg8voEG48z4w" name="reset" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_CSAKENC5EeWg8voEG48z4w" value="&quot;\u001b[0m&quot;"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CTk3YNC5EeWg8voEG48z4w" name="manageMessages" specification="_B7268NC5EeWg8voEG48z4w">
+                <ownedParameter xmi:id="_CTk3YdC5EeWg8voEG48z4w" name="message">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_CTk3YtC5EeWg8voEG48z4w" name="value">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_CTk3Y9C5EeWg8voEG48z4w" name="msgToSend">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>if(msgList.get(message)!=null)
+ 	{		  		
+ 		//System.out.println(&quot;msge=> &quot;+message+&quot; val=> &quot;+value+&quot; msgeEnv=> &quot;+msgEnv+&quot; from SBmanager!&quot;);
+
+ 		msgList.get(message).handle(value,msgToSend);
+ 	}
+ 	
+ 	
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CTlecNC5EeWg8voEG48z4w" name="addPourcentage" specification="_B75-QNC5EeWg8voEG48z4w">
+                <ownedParameter xmi:id="_CTlecdC5EeWg8voEG48z4w" name="value">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_CTlectC5EeWg8voEG48z4w" name="compteur">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_CTlec9C5EeWg8voEG48z4w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>value=value+((value/10)*compteur);
+ 	return value;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CTledNC5EeWg8voEG48z4w" name="reducePourcentage" specification="_B78agNC5EeWg8voEG48z4w">
+                <ownedParameter xmi:id="_CTleddC5EeWg8voEG48z4w" name="value">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_CTledtC5EeWg8voEG48z4w" name="compteur">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_CTled9C5EeWg8voEG48z4w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>value= value-((value/10)*compteur);
+ return value;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CTmFgNC5EeWg8voEG48z4w" name="addPourcentage" specification="_B7-2wNC5EeWg8voEG48z4w">
+                <ownedParameter xmi:id="_CTmFgdC5EeWg8voEG48z4w" name="value">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_CTmFgtC5EeWg8voEG48z4w" name="compteur">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_CTmFg9C5EeWg8voEG48z4w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>value=value+((value/10)*compteur);
+ 	return value;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CTmskNC5EeWg8voEG48z4w" name="reducePourcentage" specification="_B8B6ENC5EeWg8voEG48z4w">
+                <ownedParameter xmi:id="_CTmskdC5EeWg8voEG48z4w" name="value">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_CTmsktC5EeWg8voEG48z4w" name="compteur">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_CTmsk9C5EeWg8voEG48z4w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>value= value-((value/10)*compteur);
+ return value;
+ </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CTmslNC5EeWg8voEG48z4w" name="increasePeriod" specification="_B8DvQNC5EeWg8voEG48z4w">
+                <language>java</language>
+                <body>//augmentation des periodes du thermometre	
+	SmartBuildingListener.getClientConnection().getThermometer().setMeasurementPeriod(this.addPourcentage(getMeasurementPeriodThInit,compteur));
+	SmartBuildingListener.getClientConnection().getThermometer().setSendingPeriod(this.addPourcentage(getSendingPeriodThInit,compteur));
+	//augmentation des periodes du PSM
+	//SmartBuildingListener.getClientConnection().getPowerSmartMeter().setPowerCons(SmartBuildingListener.getClientConnection().getPowerSmartMeter().getPowerCons()-2);
+
+	SmartBuildingListener.getClientConnection().getPowerSmartMeter().setMeasurementPeriod(this.addPourcentage(getMeasurementPeriodPSMInit,compteur));
+	SmartBuildingListener.getClientConnection().getPowerSmartMeter().setSendingPeriod(this.addPourcentage(getSendingPeriodPSMInit,compteur));
+	 
+	 long getMeasurementPeriodTh=SmartBuildingListener.getClientConnection().getThermometer().getMeasurementPeriod();
+	 long getSendingPeriodTh=SmartBuildingListener.getClientConnection().getThermometer().getSendingPeriod();
+	 long getSendingPeriodPSM=SmartBuildingListener.getClientConnection().getPowerSmartMeter().getSendingPeriod();
+	 long getMeasurementPeriodPSM=SmartBuildingListener.getClientConnection().getPowerSmartMeter().getMeasurementPeriod();
+
+	//envoi des modification au thermometre	 
+	SmartBuildingListener.getClientConnection().sendToEntity(&quot;measure&quot;+getMeasurementPeriodTh, SmartBuildingListener.getChatClientDeviceSession(),&quot;Thermometer&quot;);
+	SmartBuildingListener.getClientConnection().sendToEntity(&quot;sending&quot;+getSendingPeriodTh, SmartBuildingListener.getChatClientDeviceSession(),&quot;Thermometer&quot;);
+	//envoi des modification au PSM
+	//SmartBuildingListener.getClientConnection().sendToPowerSmartMeter(&quot;cons&quot;+SmartBuildingListener.getClientConnection().getPowerSmartMeter().getPowerCons(), SmartBuildingListener.getChatClientDeviceSession());
+
+	SmartBuildingListener.getClientConnection().sendToEntity(&quot;measure&quot;+getMeasurementPeriodPSM, SmartBuildingListener.getChatClientDeviceSession(),&quot;PowerSmartMeter&quot;);
+	SmartBuildingListener.getClientConnection().sendToEntity(&quot;sending&quot;+getSendingPeriodPSM, SmartBuildingListener.getChatClientDeviceSession(),&quot;PowerSmartMeter&quot;);
+ //System.err.println(&quot;aaa&quot;+getMeasurementPeriodTh+&quot;bbbb&quot;);
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CTnToNC5EeWg8voEG48z4w" name="reducePeriod" specification="_B8EWUNC5EeWg8voEG48z4w">
+                <language>java</language>
+                <body>//System.err.println(&quot;reducePeriod()&quot;);
+
+		
+		//rétabilr les periodes du thermometre	
+		SmartBuildingListener.getClientConnection().getThermometer().setMeasurementPeriod(getMeasurementPeriodThInit);
+		SmartBuildingListener.getClientConnection().getThermometer().setSendingPeriod(getSendingPeriodThInit);
+		//rétablir les periodes du PSM
+		SmartBuildingListener.getClientConnection().getPowerSmartMeter().setMeasurementPeriod(getMeasurementPeriodPSMInit);
+		SmartBuildingListener.getClientConnection().getPowerSmartMeter().setSendingPeriod(getSendingPeriodPSMInit);
+
+		/*long getMeasurementPeriodTh=SmartBuildingListener.getClientConnection().getThermometer().getMeasurementPeriod();
+		 long getSendingPeriodTh=SmartBuildingListener.getClientConnection().getThermometer().getSendingPeriod();
+		 long getSendingPeriodPSM=SmartBuildingListener.getClientConnection().getPowerSmartMeter().getSendingPeriod();
+		 long getMeasurementPeriodPSM=SmartBuildingListener.getClientConnection().getPowerSmartMeter().getMeasurementPeriod();*/
+
+		
+		//envoi des modification au thermometre	 
+		SmartBuildingListener.getClientConnection().sendToEntity(&quot;measure&quot;+SmartBuildingListener.getClientConnection().getThermometer().getMeasurementPeriod(), SmartBuildingListener.getChatClientDeviceSession(),&quot;Thermometer&quot;);
+		SmartBuildingListener.getClientConnection().sendToEntity(&quot;sending&quot;+SmartBuildingListener.getClientConnection().getThermometer().getSendingPeriod(), SmartBuildingListener.getChatClientDeviceSession(),&quot;Thermometer&quot;);
+		//envoi des modification au PSM
+		//SmartBuildingListener.getClientConnection().getPowerSmartMeter().setPowerCons(SmartBuildingListener.getClientConnection().getPowerSmartMeter().getPowerCons()+6);
+
+		//SmartBuildingListener.getClientConnection().sendToPowerSmartMeter(&quot;cons&quot;+SmartBuildingListener.getClientConnection().getPowerSmartMeter().getPowerCons(), SmartBuildingListener.getChatClientDeviceSession());
+
+		SmartBuildingListener.getClientConnection().sendToEntity(&quot;measure&quot;+SmartBuildingListener.getClientConnection().getPowerSmartMeter().getMeasurementPeriod(), SmartBuildingListener.getChatClientDeviceSession(),&quot;PowerSmartMeter&quot;);
+		SmartBuildingListener.getClientConnection().sendToEntity(&quot;sending&quot;+SmartBuildingListener.getClientConnection().getPowerSmartMeter().getSendingPeriod(), SmartBuildingListener.getChatClientDeviceSession(),&quot;PowerSmartMeter&quot;);
+
+		</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CTnTodC5EeWg8voEG48z4w" name="changeCaracteristicsValues" specification="_B8E9YNC5EeWg8voEG48z4w">
+                <language>java</language>
+                <body>// augmenter la valeur de température de 10%
+		//SmartBuildingListener.getClientConnection().getPowerSmartMeter().setPowerCons(SmartBuildingListener.getClientConnection().getPowerSmartMeter().getPowerCons()-2);
+
+		//SmartBuildingListener.getClientConnection().sendToPowerSmartMeter(&quot;cons&quot;+SmartBuildingListener.getClientConnection().getPowerSmartMeter().getPowerCons(), SmartBuildingListener.getChatClientDeviceSession());
+		SmartBuildingListener.getClientConnection().sendToEntity(&quot;sending&quot;+SmartBuildingListener.getClientConnection().getPowerSmartMeter().getSendingPeriod(), SmartBuildingListener.getChatClientDeviceSession(),&quot;PowerSmartMeter&quot;);
+
+		SmartBuildingListener.getClientConnection().getAirConditioner().setTempValue(this.addPourcentage(SmartBuildingListener.getClientConnection().getAirConditioner().getTempValue(),1));
+		SmartBuildingListener.getClientConnection().sendToEntity(&quot;userTempAirCondValue&quot;+SmartBuildingListener.getClientConnection().getAirConditioner().getTempValue(), SmartBuildingListener.getChatClientDeviceSession(),&quot;AirConditioner&quot;);
+		//System.out.println(&quot;Ac nouvelle valeur: &quot;+SmartBuildingListener.getClientConnection().getAirConditioner().getTempValue());
+		
+		//deminuer la valeur d'intensité de la lampe de 10%
+
+		SmartBuildingListener.getClientConnection().getLamp().setIntensity(this.reducePourcentage(SmartBuildingListener.getClientConnection().getLamp().getIntensity(),1));
+		SmartBuildingListener.getClientConnection().sendToEntity(&quot;userLampIntenValue&quot;+SmartBuildingListener.getClientConnection().getLamp().getIntensity(), SmartBuildingListener.getChatClientDeviceSession(),&quot;Lamp&quot;);
+		//System.out.println(&quot;Lamp nouvelle valeur: &quot;+SmartBuildingListener.getClientConnection().getLamp().getIntensity());
+					
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CTnTotC5EeWg8voEG48z4w" name="restoreCaracteristicsValues" specification="_B8FkcNC5EeWg8voEG48z4w">
+                <language>java</language>
+                <body>//System.err.println(&quot;restoreCaracteristicsValues()&quot;);
+
+		double getTempValueAC=SmartBuildingListener.getClientConnection().getAirConditioner().getTempValue();
+		//double getIntensityLamp=SmartBuildingListener.getClientConnection().getLamp().getIntensity();
+
+		// rétablir la valeur de température de 10%
+		SmartBuildingListener.getClientConnection().getAirConditioner().setTempValue(SmartBuildingListener.getClientConnection().getUserAgentPreferences().getTempValueAC());
+		SmartBuildingListener.getClientConnection().sendToEntity(&quot;userTempAirCondValue&quot;+SmartBuildingListener.getClientConnection().getUserAgentPreferences().getTempValueAC(), SmartBuildingListener.getChatClientDeviceSession(),&quot;AirConditioner&quot;);
+		//System.out.println(&quot;Ac valeur ancienne: &quot;+SmartBuildingListener.getClientConnection().getAirConditioner().getTempValue());
+
+		//rétablir la valeur d'intensité de la lampe de 10%
+		SmartBuildingListener.getClientConnection().getLamp().setIntensity(SmartBuildingListener.getClientConnection().getUserAgentPreferences().getLampIntensity());
+		SmartBuildingListener.getClientConnection().sendToEntity(&quot;userLampIntenValue&quot;+SmartBuildingListener.getClientConnection().getUserAgentPreferences().getLampIntensity(), SmartBuildingListener.getChatClientDeviceSession(),&quot;Lamp&quot;);
+		//System.out.println(&quot;Lamp valeur ancienne: &quot;+SmartBuildingListener.getClientConnection().getLamp().getIntensity());
+							
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CTn6sNC5EeWg8voEG48z4w" name="run" specification="_B8GykNC5EeWg8voEG48z4w">
+                <language>java</language>
+                <body>while(true){
+				
+			
+					
+					System.out.println(bleu+&quot;*********************************BuildingManager********************************&quot;+reset);
+		    test=SmartBuildingListener.getClientConnection().getPowerSmartMeter().getPowerCons()>SmartBuildingListener.getClientConnection().getPowerSmartMeter().getPowerProd();
+		    testInverse=SmartBuildingListener.getClientConnection().getPowerSmartMeter().getPowerCons()&lt;SmartBuildingListener.getClientConnection().getPowerSmartMeter().getPowerProd();
+		    //System.out.println(&quot;test: &quot;+test);
+		    if(SmartBuildingListener.getClientConnection().getPowerSmartMeter().getPowerProd()>=SmartBuildingListener.getClientConnection().getPowerSmartMeter().getPowerCons())
+		    {System.out.println(bleu+&quot;*&quot;+reset+vert+&quot; Energie Produite  ==> &quot;+SmartBuildingListener.getClientConnection().getPowerSmartMeter().getPowerProd()+&quot;                                                   &quot;+reset+bleu+&quot;*&quot;);
+		    System.out.println(bleu+&quot;*&quot;+reset+vert+&quot; Energie Consommée ==> &quot;+SmartBuildingListener.getClientConnection().getPowerSmartMeter().getPowerCons()+&quot;                                                   &quot;+reset+bleu+&quot;*&quot;);
+		    }else{
+		    	System.out.println(bleu+&quot;*&quot;+reset+rouge+&quot; Energie Produite  ==> &quot;+SmartBuildingListener.getClientConnection().getPowerSmartMeter().getPowerProd()+&quot;                                                   &quot;+reset+bleu+&quot;*&quot;);
+		    System.out.println(bleu+&quot;*&quot;+reset+rouge+&quot; Energie Consommée ==> &quot;+SmartBuildingListener.getClientConnection().getPowerSmartMeter().getPowerCons()+&quot;                                                   &quot;+reset+bleu+&quot;*&quot;);
+		    }
+			 // si (c>p) on augmente la periode d'envoi et de mesure
+			boolean t1=(test &amp;&amp; compteur&lt;3);
+			//System.out.println(&quot;test periodes : &quot;+t1);
+			boolean t2=(test &amp;&amp; compteur==3);
+			//System.out.println(&quot;test confort : &quot;+t2);
+			//System.err.println(&quot;compteur: &quot;+compteur);
+
+			if(test &amp;&amp; compteur&lt;3){
+				System.out.println(bleu+&quot;*&quot;+reset+cyan+&quot;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++&quot;+reset+bleu+&quot;*&quot;);
+				System.out.println(&quot;*&quot;+reset+cyan+&quot;+         Cycle d'adaptation n°&quot;+compteur+&quot; &lt;phase1 : augmentation des periodes>        +&quot;+reset+bleu+&quot;*&quot;);
+				System.out.println(&quot;*&quot;+reset+cyan+&quot;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++&quot;+reset+bleu+&quot;*&quot;+reset);
+				//System.err.println(&quot;&quot;);
+				this.increasePeriod(); 
+		        compteur=compteur+1;
+		     // ce test permet de destinger entre (p&lt;c normale) et (p&lt;c apres subir un traitement de modification sur les periode d'envoi et de mesure ^^
+		        augmentation=true;
+		     //**********  
+				}
+			  else
+				  if(test &amp;&amp; compteur==3){
+					  System.out.println(bleu+&quot;*&quot;+reset+cyan+&quot;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++&quot;+reset+bleu+&quot;*&quot;);
+					  System.out.println(&quot;*&quot;+reset+cyan+&quot;+  Cycle d'adaptation &lt;phase2 : changement des caractéristiques des entités> +&quot;+reset+bleu+&quot;*&quot;);
+					  System.out.println(&quot;*&quot;+reset+cyan+&quot;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++&quot;+reset+bleu+&quot;*&quot;);
+					  
+					  this.changeCaracteristicsValues();
+					  if(SmartBuildingListener.getClientConnection().getLamp().getIntensity()&lt;1000){
+					  System.out.println(&quot;*&quot;+reset+cyan+&quot;+&quot;+reset+cyanGras+&quot;           valeur d'intensité (Lamp)            ==> &quot;+SmartBuildingListener.getClientConnection().getLamp().getIntensity()+&quot;                   &quot;+reset+cyan+&quot;+&quot;+reset+bleu+&quot;*&quot;);
+					  }else
+						  System.out.println(&quot;*&quot;+reset+cyan+&quot;+&quot;+reset+cyanGras+&quot;            valeur d'intensité (Lamp)            ==> &quot;+SmartBuildingListener.getClientConnection().getLamp().getIntensity()+&quot;                   &quot;+reset+cyan+&quot;+&quot;+reset+bleu+&quot;*&quot;);
+	                  if(SmartBuildingListener.getClientConnection().getAirConditioner().getTempValue()>9){
+					  System.out.println(&quot;*&quot;+reset+cyan+&quot;+&quot;+reset+cyanGras+&quot;           valeur de température (AirCondioner) ==> &quot;+SmartBuildingListener.getClientConnection().getAirConditioner().getTempValue()+&quot;                    &quot;+reset+cyan+&quot;+&quot;+reset+bleu+&quot;*&quot;);
+	                  }
+	                  else{
+	    				  System.out.println(&quot;*&quot;+reset+cyan+&quot;+&quot;+reset+cyanGras+&quot;            valeur de température (AirCondioner) ==> &quot;+SmartBuildingListener.getClientConnection().getAirConditioner().getTempValue()+&quot;                    &quot;+reset+cyan+&quot;+&quot;+reset+bleu+&quot;*&quot;);
+	 
+	                  }
+					  System.out.println(&quot;*&quot;+reset+cyan+&quot;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++&quot;+reset+bleu+&quot;*&quot;);
+
+					  confort=true;
+					  augmentation=false;
+				      compteur=compteur+1;
+	  
+				  }
+			 else
+			  if(testInverse &amp;&amp; augmentation){
+				  System.out.println(&quot;*&quot;+reset+cyan+&quot;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++&quot;+reset+bleu+&quot;*&quot;);
+				  System.out.println(&quot;*&quot;+reset+cyan+&quot;+                   Rétablissement des valeurs des periodes                  +&quot;+reset+bleu+&quot;*&quot;);
+				  System.out.println(&quot;*&quot;+reset+cyan+&quot;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++&quot;+reset+bleu+&quot;*&quot;);
+				 this.reducePeriod(); 
+				 augmentation=false; 
+				 compteur=1;
+
+			  }
+			  else 
+				  if(testInverse &amp;&amp; confort){
+					  System.out.println(&quot;*&quot;+reset+cyan+&quot;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++&quot;+reset+bleu+&quot;*&quot;);
+					  System.out.println(&quot;*&quot;+reset+cyan+&quot;+       Rétablissement des valeurs des périodes et des caractéristiques      +&quot;+reset+bleu+&quot;*&quot;);
+					  System.out.println(&quot;*&quot;+reset+cyan+&quot;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++&quot;+reset+bleu+&quot;*&quot;);
+					  
+			  this.restoreCaracteristicsValues();
+			  
+			  this.reducePeriod();
+			  if(SmartBuildingListener.getClientConnection().getLamp().getIntensity()>9){
+				  System.out.println(&quot;*&quot;+reset+cyan+&quot;+&quot;+reset+cyanGras+&quot;           valeur d'intensité (Lamp)            ==> &quot;+SmartBuildingListener.getClientConnection().getLamp().getIntensity()+&quot;                   &quot;+reset+cyan+&quot;+&quot;+reset+bleu+&quot;*&quot;);
+				  }else
+					  System.out.println(&quot;*&quot;+reset+cyan+&quot;+&quot;+reset+cyanGras+&quot;            valeur d'intensité (Lamp)            ==> &quot;+SmartBuildingListener.getClientConnection().getLamp().getIntensity()+&quot;                    &quot;+reset+cyan+&quot;+&quot;+reset+bleu+&quot;*&quot;);
+	              if(SmartBuildingListener.getClientConnection().getAirConditioner().getTempValue()>9){
+				  System.out.println(&quot;*&quot;+reset+cyan+&quot;+&quot;+reset+cyanGras+&quot;           valeur de température (AirCondioner) ==> &quot;+SmartBuildingListener.getClientConnection().getAirConditioner().getTempValue()+&quot;                    &quot;+reset+cyan+&quot;+&quot;+reset+bleu+&quot;*&quot;);
+	              }
+	              else{
+					  System.out.println(&quot;*&quot;+reset+cyan+&quot;+&quot;+reset+cyanGras+&quot;            valeur de température (AirCondioner) ==> &quot;+SmartBuildingListener.getClientConnection().getAirConditioner().getTempValue()+&quot;                    &quot;+reset+cyan+&quot;+&quot;+reset+bleu+&quot;*&quot;);
+
+	              }
+				  System.out.println(&quot;*&quot;+reset+cyan+&quot;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++&quot;+reset+bleu+&quot;*&quot;);
+
+			  confort=false;
+			  compteur=1;
+
+
+				  }
+		   
+		      try {
+		    	 System.out.println(bleu+&quot;********************************************************************************&quot;+reset);
+
+				Thread.sleep((long) ((SmartBuildingListener.getClientConnection().getPowerSmartMeter().getMeasurementPeriod())*1.3));
+		                    
+
+				} catch (InterruptedException e1) {
+							// TODO Auto-generated catch block
+							e1.printStackTrace();
+						}}    </body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_B7zQkNC5EeWg8voEG48z4w" name="SmartBuildingManager">
+                <eAnnotations xmi:id="_B7z3oNC5EeWg8voEG48z4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_B7z3odC5EeWg8voEG48z4w" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_B71FwNC5EeWg8voEG48z4w" type="_B7jY8NC5EeWg8voEG48z4w" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_B7268NC5EeWg8voEG48z4w" name="manageMessages" isStatic="true" method="_CTk3YNC5EeWg8voEG48z4w">
+                <ownedComment xmi:id="_CU334NC5EeWg8voEG48z4w">
+                  <body>Call the method handle of the corresponding message
+	 * @author emna
+	 * @param message the message name
+	 * @param value the digital value attached to the message
+	 * @param msgToSend the message to be sent</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_B7268dC5EeWg8voEG48z4w" name="message">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_B73iANC5EeWg8voEG48z4w" name="value">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_B73iAdC5EeWg8voEG48z4w" name="msgToSend">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_B75-QNC5EeWg8voEG48z4w" name="addPourcentage" method="_CTlecNC5EeWg8voEG48z4w">
+                <ownedParameter xmi:id="_B75-QdC5EeWg8voEG48z4w" name="value">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_B76lUNC5EeWg8voEG48z4w" name="compteur">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_B76lUdC5EeWg8voEG48z4w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_B78agNC5EeWg8voEG48z4w" name="reducePourcentage" method="_CTledNC5EeWg8voEG48z4w">
+                <ownedParameter xmi:id="_B78agdC5EeWg8voEG48z4w" name="value">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_B78agtC5EeWg8voEG48z4w" name="compteur">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_B79BkNC5EeWg8voEG48z4w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_B7-2wNC5EeWg8voEG48z4w" name="addPourcentage" method="_CTmFgNC5EeWg8voEG48z4w">
+                <ownedParameter xmi:id="_B7_d0NC5EeWg8voEG48z4w" name="value">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_B7_d0dC5EeWg8voEG48z4w" name="compteur">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_B8AE4NC5EeWg8voEG48z4w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_B8B6ENC5EeWg8voEG48z4w" name="reducePourcentage" method="_CTmskNC5EeWg8voEG48z4w">
+                <ownedParameter xmi:id="_B8B6EdC5EeWg8voEG48z4w" name="value">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_B8ChINC5EeWg8voEG48z4w" name="compteur">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_B8ChIdC5EeWg8voEG48z4w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_B8DvQNC5EeWg8voEG48z4w" name="increasePeriod" method="_CTmslNC5EeWg8voEG48z4w"/>
+              <ownedOperation xmi:id="_B8EWUNC5EeWg8voEG48z4w" name="reducePeriod" method="_CTnToNC5EeWg8voEG48z4w"/>
+              <ownedOperation xmi:id="_B8E9YNC5EeWg8voEG48z4w" name="changeCaracteristicsValues" method="_CTnTodC5EeWg8voEG48z4w"/>
+              <ownedOperation xmi:id="_B8FkcNC5EeWg8voEG48z4w" name="restoreCaracteristicsValues" method="_CTnTotC5EeWg8voEG48z4w"/>
+              <ownedOperation xmi:id="_B8GykNC5EeWg8voEG48z4w" name="run" method="_CTn6sNC5EeWg8voEG48z4w"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_CVeU0NC5EeWg8voEG48z4w" name="" memberEnd="_CVeU0dC5EeWg8voEG48z4w _CRGyMNC5EeWg8voEG48z4w">
+              <ownedEnd xmi:id="_CVeU0dC5EeWg8voEG48z4w" name="" type="_B7JJQNC5EeWg8voEG48z4w" association="_CVeU0NC5EeWg8voEG48z4w"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_CVfi8dC5EeWg8voEG48z4w" name="" memberEnd="_CVfi8tC5EeWg8voEG48z4w _CRJ1gNC5EeWg8voEG48z4w">
+              <ownedEnd xmi:id="_CVfi8tC5EeWg8voEG48z4w" name="" type="_B7JJQNC5EeWg8voEG48z4w" association="_CVfi8dC5EeWg8voEG48z4w"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_CVgxEdC5EeWg8voEG48z4w" name="" memberEnd="_CVhYINC5EeWg8voEG48z4w _CRMRwNC5EeWg8voEG48z4w">
+              <ownedEnd xmi:id="_CVhYINC5EeWg8voEG48z4w" name="" type="_B7JJQNC5EeWg8voEG48z4w" association="_CVgxEdC5EeWg8voEG48z4w"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_CVh_MdC5EeWg8voEG48z4w" name="" memberEnd="_CVh_MtC5EeWg8voEG48z4w _CRVbsNC5EeWg8voEG48z4w">
+              <ownedEnd xmi:id="_CVh_MtC5EeWg8voEG48z4w" name="" type="_B7jY8NC5EeWg8voEG48z4w" association="_CVh_MdC5EeWg8voEG48z4w"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_BxQNcNC5EeWg8voEG48z4w" name="chat">
+      <packagedElement xmi:type="uml:Package" xmi:id="_BxQ0gNC5EeWg8voEG48z4w" name="client">
+        <packagedElement xmi:type="uml:Class" xmi:id="_CP21ANC5EeWg8voEG48z4w" name="ChatClient"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_BxihUNC5EeWg8voEG48z4w" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_BxjIYNC5EeWg8voEG48z4w" name="util">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_CP_-8NC5EeWg8voEG48z4w" name="Calendar"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_CQB0IdC5EeWg8voEG48z4w" name="Hashtable"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_CQTg8NC5EeWg8voEG48z4w" name="StringTokenizer"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_CQVWINC5EeWg8voEG48z4w" name="Vector"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_CQwz8NC5EeWg8voEG48z4w" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_CQwz8dC5EeWg8voEG48z4w" name="Thread"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_B4GcUNC5EeWg8voEG48z4w" name="test">
+      <packagedElement xmi:type="uml:Class" xmi:id="_CDDIENC5EeWg8voEG48z4w" name="SmartBuildingDaemon">
+        <ownedAttribute xmi:id="_CTBdwNC5EeWg8voEG48z4w" name="smartBuildingListener" visibility="package" isStatic="true" type="_B7JJQNC5EeWg8voEG48z4w" association="_CVm3sNC5EeWg8voEG48z4w"/>
+        <ownedAttribute xmi:id="_CTCr4NC5EeWg8voEG48z4w" name="smartBuildingManager" visibility="package" isStatic="true" type="_B7jY8NC5EeWg8voEG48z4w" association="_CVnewdC5EeWg8voEG48z4w"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CUmLENC5EeWg8voEG48z4w" name="main" specification="_CDDvINC5EeWg8voEG48z4w">
+          <ownedParameter xmi:id="_CUmyINC5EeWg8voEG48z4w" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CUmyIdC5EeWg8voEG48z4w" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>//receiving messages (from user agent &amp; entities)
+		smartBuildingListener = new SmartBuildingListener();
+		smartBuildingManager = new SmartBuildingManager();
+
+		smartBuildingListener.start();
+	    smartBuildingManager.start();
+
+
+	  
+	    	 
+	    
+	    
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_CDDvINC5EeWg8voEG48z4w" name="main" isStatic="true" method="_CUmLENC5EeWg8voEG48z4w">
+          <ownedParameter xmi:id="_CDDvIdC5EeWg8voEG48z4w" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CDEWMNC5EeWg8voEG48z4w" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_CVm3sNC5EeWg8voEG48z4w" name="" memberEnd="_CVm3sdC5EeWg8voEG48z4w _CTBdwNC5EeWg8voEG48z4w">
+        <ownedEnd xmi:id="_CVm3sdC5EeWg8voEG48z4w" name="" type="_CDDIENC5EeWg8voEG48z4w" association="_CVm3sNC5EeWg8voEG48z4w"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_CVnewdC5EeWg8voEG48z4w" name="" memberEnd="_CVnewtC5EeWg8voEG48z4w _CTCr4NC5EeWg8voEG48z4w">
+        <ownedEnd xmi:id="_CVnewtC5EeWg8voEG48z4w" name="" type="_CDDIENC5EeWg8voEG48z4w" association="_CVnewdC5EeWg8voEG48z4w"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_AjmukNC5EeWg8voEG48z4w">
+      <eAnnotations xmi:id="_AjojwNC5EeWg8voEG48z4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_AjsOINC5EeWg8voEG48z4w" base_Package="_AaLFwNC5EeWg8voEG48z4w">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_B70esNC5EeWg8voEG48z4w" base_Element="_B7zQkNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_B8_jYNC5EeWg8voEG48z4w" base_Element="_B8-VQNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_B9Yk8NC5EeWg8voEG48z4w" base_Element="_B9WvwNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_B9n1gNC5EeWg8voEG48z4w" base_Element="_B9mAUNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_B99zwNC5EeWg8voEG48z4w" base_Element="_B97-kNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_B-qXUNC5EeWg8voEG48z4w" base_Element="_B-pJMNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_B_Mi0NC5EeWg8voEG48z4w" base_Element="_B_KtoNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_B_O_ENC5EeWg8voEG48z4w" base_Element="_B_KtoNC5EeWg8voEG48z4w">
+    <annotations xmi:id="_B_RbUNC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_B_Z-MNC5EeWg8voEG48z4w" base_Element="_B_YwENC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_B_bzYNC5EeWg8voEG48z4w" base_Element="_B_YwENC5EeWg8voEG48z4w">
+    <annotations xmi:id="_B_bzYdC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_B_h6ANC5EeWg8voEG48z4w" base_Element="_B_gr4NC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_B_kWQNC5EeWg8voEG48z4w" base_Element="_B_gr4NC5EeWg8voEG48z4w">
+    <annotations xmi:id="_B_kWQdC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_B_s5INC5EeWg8voEG48z4w" base_Element="_B_qc4NC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_B_uHQNC5EeWg8voEG48z4w" base_Element="_B_qc4NC5EeWg8voEG48z4w">
+    <annotations xmi:id="_B_uuUNC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_B_2qINC5EeWg8voEG48z4w" base_Element="_B_0N4NC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_B_4fUNC5EeWg8voEG48z4w" base_Element="_B_0N4NC5EeWg8voEG48z4w">
+    <annotations xmi:id="_B_4fUdC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CABCMNC5EeWg8voEG48z4w" base_Element="_B_-l8NC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CACQUNC5EeWg8voEG48z4w" base_Element="_B_-l8NC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CACQUdC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CAJlENC5EeWg8voEG48z4w" base_Element="_CAHv4NC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CANPcNC5EeWg8voEG48z4w" base_Element="_CAHv4NC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CANPcdC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CAXAcNC5EeWg8voEG48z4w" base_Element="_CAVyUNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CAY1oNC5EeWg8voEG48z4w" base_Element="_CAVyUNC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CAY1odC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CAoGMNC5EeWg8voEG48z4w" base_Element="_CAlp8NC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CArJgNC5EeWg8voEG48z4w" base_Element="_CAlp8NC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CArJgdC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CAzFUNC5EeWg8voEG48z4w" base_Element="_CAxQINC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CA06gNC5EeWg8voEG48z4w" base_Element="_CAxQINC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CA06gdC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CA7oMNC5EeWg8voEG48z4w" base_Element="_CA5zANC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CA9dYNC5EeWg8voEG48z4w" base_Element="_CA5zANC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CA9dYdC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CBDkANC5EeWg8voEG48z4w" base_Element="_CBCV4NC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CBFZMNC5EeWg8voEG48z4w" base_Element="_CBCV4NC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CBFZMdC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CBMG4NC5EeWg8voEG48z4w" base_Element="_CBKRsNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CBNVANC5EeWg8voEG48z4w" base_Element="_CBKRsNC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CBNVAdC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CBUCsNC5EeWg8voEG48z4w" base_Element="_CBS0kNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CBVQ0NC5EeWg8voEG48z4w" base_Element="_CBS0kNC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CBV34NC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CBclkNC5EeWg8voEG48z4w" base_Element="_CBawYNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CBdzsNC5EeWg8voEG48z4w" base_Element="_CBawYNC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CBdzsdC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CBlIcNC5EeWg8voEG48z4w" base_Element="_CBisMNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CBmWkNC5EeWg8voEG48z4w" base_Element="_CBisMNC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CBmWkdC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CBu5cNC5EeWg8voEG48z4w" base_Element="_CBr2INC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CBwuoNC5EeWg8voEG48z4w" base_Element="_CBr2INC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CBwuodC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CB6foNC5EeWg8voEG48z4w" base_Element="_CB4DYNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CB7GsNC5EeWg8voEG48z4w" base_Element="_CB4DYNC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CB7GsdC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CCE3sNC5EeWg8voEG48z4w" base_Element="_CCDpkNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CCGF0NC5EeWg8voEG48z4w" base_Element="_CCDpkNC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CCGF0dC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CCNakNC5EeWg8voEG48z4w" base_Element="_CCLlYNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CCOosNC5EeWg8voEG48z4w" base_Element="_CCLlYNC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CCOosdC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CCThMNC5EeWg8voEG48z4w" base_Element="_CCSTENC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CCUvUNC5EeWg8voEG48z4w" base_Element="_CCSTENC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CCUvUdC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CCaO4NC5EeWg8voEG48z4w" base_Element="_CCYZsNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CCa18NC5EeWg8voEG48z4w" base_Element="_CCYZsNC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CCbdANC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CCfucNC5EeWg8voEG48z4w" base_Element="_CCd5QNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CCg8kNC5EeWg8voEG48z4w" base_Element="_CCd5QNC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CCg8kdC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CClOANC5EeWg8voEG48z4w" base_Element="_CCj_4NC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CCl1ENC5EeWg8voEG48z4w" base_Element="_CCj_4NC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CCl1EdC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CCrUoNC5EeWg8voEG48z4w" base_Element="_CCo4YNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CCr7sNC5EeWg8voEG48z4w" base_Element="_CCo4YNC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CCr7sdC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CCu_ANC5EeWg8voEG48z4w" base_Element="_CCtw4NC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CCvmENC5EeWg8voEG48z4w" base_Element="_CCtw4NC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CCvmEdC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CC1FoNC5EeWg8voEG48z4w" base_Element="_CCypYNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CC1ssNC5EeWg8voEG48z4w" base_Element="_CCypYNC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CC2TwNC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CC5XENC5EeWg8voEG48z4w" base_Element="_CC4I8NC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CC5-INC5EeWg8voEG48z4w" base_Element="_CC4I8NC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CC5-IdC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CC-PkNC5EeWg8voEG48z4w" base_Element="_CC9BcdC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CC-2oNC5EeWg8voEG48z4w" base_Element="_CC9BcdC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CC-2odC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CDB58NC5EeWg8voEG48z4w" base_Element="_CDBS4NC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CDChANC5EeWg8voEG48z4w" base_Element="_CDBS4NC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CDChAdC5EeWg8voEG48z4w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_CP4qMNC5EeWg8voEG48z4w" base_Element="_CP21ANC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Reference xmi:id="_CQB0INC5EeWg8voEG48z4w" base_Element="_CP_-8NC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Reference xmi:id="_CQDpUNC5EeWg8voEG48z4w" base_Element="_CQB0IdC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Reference xmi:id="_CQUvENC5EeWg8voEG48z4w" base_Element="_CQTg8NC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Reference xmi:id="_CQWkQNC5EeWg8voEG48z4w" base_Element="_CQVWINC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Reference xmi:id="_CQyCENC5EeWg8voEG48z4w" base_Element="_CQwz8dC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CRHZQNC5EeWg8voEG48z4w" base_Element="_CRGyMNC5EeWg8voEG48z4w">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_CRInYNC5EeWg8voEG48z4w" name="getClientConnection" isStatic="true" method="_CTbtcNC5EeWg8voEG48z4w">
+      <ownedParameter xmi:id="_CRJOcNC5EeWg8voEG48z4w" type="_B-R80NC5EeWg8voEG48z4w" direction="return"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CRJ1gdC5EeWg8voEG48z4w" base_Element="_CRJ1gNC5EeWg8voEG48z4w">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_CRLDoNC5EeWg8voEG48z4w" name="getChatClientDeviceSession" isStatic="true" method="_CTeJsNC5EeWg8voEG48z4w">
+      <ownedParameter xmi:id="_CRLqsNC5EeWg8voEG48z4w" type="_CP21ANC5EeWg8voEG48z4w" direction="return"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CRM40NC5EeWg8voEG48z4w" base_Element="_CRMRwNC5EeWg8voEG48z4w">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_CROG8NC5EeWg8voEG48z4w" name="getChatClientUserSession" isStatic="true" method="_CTewwNC5EeWg8voEG48z4w">
+      <ownedParameter xmi:id="_CRPVENC5EeWg8voEG48z4w" type="_CP21ANC5EeWg8voEG48z4w" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_CROG8dC5EeWg8voEG48z4w" name="setChatClientUserSession" isStatic="true" method="_CTewwtC5EeWg8voEG48z4w">
+      <ownedParameter xmi:id="_CROuANC5EeWg8voEG48z4w" name="chatClientUserSession" type="_CP21ANC5EeWg8voEG48z4w"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CRSYYNC5EeWg8voEG48z4w" base_Element="_CRQjMNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Generics xmi:id="_CRXQ4NC5EeWg8voEG48z4w" genericsValue="String,Message" base_Element="_CRVbsNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CRYfANC5EeWg8voEG48z4w" base_Element="_CRVbsNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Annotations xmi:id="_CRZGENC5EeWg8voEG48z4w" base_Element="_CRVbsNC5EeWg8voEG48z4w">
+    <annotations xmi:id="_CRZGEdC5EeWg8voEG48z4w" name="SuppressWarnings">
+      <annotationParameters xmi:id="_CRZGEtC5EeWg8voEG48z4w" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_CU2CsNC5EeWg8voEG48z4w" value="&quot;serial&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CRa7QNC5EeWg8voEG48z4w" base_Element="_CRZtINC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CRcwcNC5EeWg8voEG48z4w" base_Element="_CRbiUNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CRd-kNC5EeWg8voEG48z4w" base_Element="_CRcwcdC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CRfzwNC5EeWg8voEG48z4w" base_Element="_CReloNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CRhB4NC5EeWg8voEG48z4w" base_Element="_CRfzwdC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CRiQANC5EeWg8voEG48z4w" base_Element="_CRho8NC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CRkFMNC5EeWg8voEG48z4w" base_Element="_CRi3ENC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CRl6YNC5EeWg8voEG48z4w" base_Element="_CRksQNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CRnvkNC5EeWg8voEG48z4w" base_Element="_CRmhcNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CRo9sNC5EeWg8voEG48z4w" base_Element="_CRoWoNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CRqy4NC5EeWg8voEG48z4w" base_Element="_CRpkwNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CRsBANC5EeWg8voEG48z4w" base_Element="_CRrZ8NC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CRt2MNC5EeWg8voEG48z4w" base_Element="_CRsoENC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CRvEUNC5EeWg8voEG48z4w" base_Element="_CRt2MdC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CRw5gNC5EeWg8voEG48z4w" base_Element="_CRvrYNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CRyusNC5EeWg8voEG48z4w" base_Element="_CRxgkNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CR0j4NC5EeWg8voEG48z4w" base_Element="_CRzVwNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CR1yANC5EeWg8voEG48z4w" base_Element="_CR0j4dC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CR3AINC5EeWg8voEG48z4w" base_Element="_CR2ZENC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CR41UNC5EeWg8voEG48z4w" base_Element="_CR3nMNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CR6DcNC5EeWg8voEG48z4w" base_Element="_CR41UdC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CR74oNC5EeWg8voEG48z4w" base_Element="_CR6qgNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CR9t0NC5EeWg8voEG48z4w" base_Element="_CR8fsNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CR_jANC5EeWg8voEG48z4w" base_Element="_CR-U4NC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CSAxINC5EeWg8voEG48z4w" base_Element="_CR_jAdC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CSQowNC5EeWg8voEG48z4w" base_Element="_CSPaoNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CSddENC5EeWg8voEG48z4w" base_Element="_CSc2ANC5EeWg8voEG48z4w">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_CSerMNC5EeWg8voEG48z4w" name="getPrecision" method="_CTv2gNC5EeWg8voEG48z4w">
+      <ownedParameter xmi:id="_CSfSQNC5EeWg8voEG48z4w" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Generics xmi:id="_CSlY4NC5EeWg8voEG48z4w" genericsValue="Entity" base_Element="_CSkKwNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CSl_8NC5EeWg8voEG48z4w" base_Element="_CSkKwNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Generics xmi:id="_CSn1INC5EeWg8voEG48z4w" genericsValue="String" base_Element="_CSmnANC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CSpDQNC5EeWg8voEG48z4w" base_Element="_CSmnANC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CSqRYNC5EeWg8voEG48z4w" base_Element="_CSpDQdC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CSsGkNC5EeWg8voEG48z4w" base_Element="_CSq4cNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CSw_ENC5EeWg8voEG48z4w" base_Element="_CSwYANC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CS1QgNC5EeWg8voEG48z4w" base_Element="_CS0pcNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CS6wENC5EeWg8voEG48z4w" base_Element="_CS5h8NC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CS_okNC5EeWg8voEG48z4w" base_Element="_CS-acNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CTCE0NC5EeWg8voEG48z4w" base_Element="_CTBdwNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_CTD6ANC5EeWg8voEG48z4w" base_Element="_CTCr4NC5EeWg8voEG48z4w"/>
+  <uml:OpaqueBehavior xmi:id="_CTbtcNC5EeWg8voEG48z4w" name="getClientConnection" specification="_CRInYNC5EeWg8voEG48z4w">
+    <ownedParameter xmi:id="_CTdioNC5EeWg8voEG48z4w" type="_B-R80NC5EeWg8voEG48z4w" direction="return"/>
+    <language>java</language>
+    <body>return clientConnection;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_CTeJsNC5EeWg8voEG48z4w" name="getChatClientDeviceSession" specification="_CRLDoNC5EeWg8voEG48z4w">
+    <ownedParameter xmi:id="_CTeJsdC5EeWg8voEG48z4w" type="_CP21ANC5EeWg8voEG48z4w" direction="return"/>
+    <language>java</language>
+    <body>return chatClientDeviceSession;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_CTewwNC5EeWg8voEG48z4w" name="getChatClientUserSession" specification="_CROG8NC5EeWg8voEG48z4w">
+    <ownedParameter xmi:id="_CTewwdC5EeWg8voEG48z4w" type="_CP21ANC5EeWg8voEG48z4w" direction="return"/>
+    <language>java</language>
+    <body>return chatClientUserSession;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_CTewwtC5EeWg8voEG48z4w" name="setChatClientUserSession" specification="_CROG8dC5EeWg8voEG48z4w">
+    <ownedParameter xmi:id="_CTeww9C5EeWg8voEG48z4w" name="chatClientUserSession" type="_CP21ANC5EeWg8voEG48z4w"/>
+    <language>java</language>
+    <body>SmartBuildingListener.chatClientUserSession = chatClientUserSession;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_CTv2gNC5EeWg8voEG48z4w" name="getPrecision" specification="_CSerMNC5EeWg8voEG48z4w">
+    <ownedParameter xmi:id="_CTwdkNC5EeWg8voEG48z4w" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return this.precision;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_CVfi8NC5EeWg8voEG48z4w" base_Element="_CVeU0NC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Reference xmi:id="_CVgxENC5EeWg8voEG48z4w" base_Element="_CVfi8dC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Reference xmi:id="_CVh_MNC5EeWg8voEG48z4w" base_Element="_CVgxEdC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Reference xmi:id="_CVjNUNC5EeWg8voEG48z4w" base_Element="_CVh_MdC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Reference xmi:id="_CVlCgNC5EeWg8voEG48z4w" base_Element="_CVjNUdC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Reference xmi:id="_CVmQoNC5EeWg8voEG48z4w" base_Element="_CVlCgdC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Reference xmi:id="_CVnewNC5EeWg8voEG48z4w" base_Element="_CVm3sNC5EeWg8voEG48z4w"/>
+  <UMLLabProfile:Reference xmi:id="_CVos4NC5EeWg8voEG48z4w" base_Element="_CVnewdC5EeWg8voEG48z4w"/>
+</xmi:XMI>
